@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "NSLockDemo.h"
+#import "MutiThreadUnsafeDemo.h"
 
 @interface ViewController ()
 
@@ -16,11 +18,64 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
+    
+        //    [self CallNSlock];
+        //    [self CallConditionLock];
+        //    [self CallRecursiveLock];
+        //    [self CallCondition];
+//    [self CallSynchronized];
+//    [self Callsemaphore];
+//    [self CallOSPinLock];
+    
+    MutiThreadUnsafeDemo* seller  = [[MutiThreadUnsafeDemo alloc] init];
+//    [demo startSellTicket];
+    [seller startSellTicketWithLock];
+    
 }
 
 
+-(void)CallNSlock{
+    
+    NSLockDemo* demo = [[NSLockDemo alloc] init];
+    //    [demo lockShows];
+    //    [demo dataWithOutLock];
+    [demo dataWithLock];
+    
+}
 
+-(void)CallConditionLock{
+    
+    NSConditionLockDemo* demo = [[NSConditionLockDemo alloc] init];
+    [demo lockShows];
+    
+}
 
+-(void)CallRecursiveLock{
+    NSRecursiveLockDemo* demo = [[NSRecursiveLockDemo alloc] init];
+    [demo lockShows];
+}
+
+-(void)CallCondition{
+    NSConditionDemo* demo = [[NSConditionDemo alloc] init];
+    [demo lockShows];
+}
+
+-(void)CallSynchronized{
+    
+    NSSynchronizedDemo* demo = [[NSSynchronizedDemo alloc] init];
+    [demo lockShows];
+    
+}
+
+-(void)Callsemaphore{
+    NSsemaphoreDemo* demo = [[NSsemaphoreDemo alloc] init];
+    [demo lockShows];
+}
+
+-(void)CallOSPinLock{
+    NSOSSpinLockDemo* demo = [[NSOSSpinLockDemo alloc] init];
+    [demo lockShows];
+}
 
 @end
+

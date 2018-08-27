@@ -7,36 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45BE355C212EB91B00F662C7 /* MutiThreadUnsafeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE355B212EB91B00F662C7 /* MutiThreadUnsafeDemo.m */; };
-		45E239AE212C03BC001F9210 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E239AD212C03BC001F9210 /* AppDelegate.m */; };
-		45E239B1212C03BC001F9210 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E239B0212C03BC001F9210 /* ViewController.m */; };
-		45E239B4212C03BC001F9210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E239B2212C03BC001F9210 /* Main.storyboard */; };
-		45E239B6212C03BD001F9210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E239B5212C03BD001F9210 /* Assets.xcassets */; };
-		45E239B9212C03BD001F9210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E239B7212C03BD001F9210 /* LaunchScreen.storyboard */; };
-		45E239BC212C03BD001F9210 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E239BB212C03BD001F9210 /* main.m */; };
-		45E239C4212C0EE0001F9210 /* NSLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E239C3212C0EE0001F9210 /* NSLockDemo.m */; };
+		45BE356B212FE39D00F662C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE356A212FE39D00F662C7 /* AppDelegate.m */; };
+		45BE356E212FE39D00F662C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE356D212FE39D00F662C7 /* ViewController.m */; };
+		45BE3571212FE39D00F662C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BE356F212FE39D00F662C7 /* Main.storyboard */; };
+		45BE3573212FE39E00F662C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BE3572212FE39E00F662C7 /* Assets.xcassets */; };
+		45BE3576212FE39E00F662C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BE3574212FE39E00F662C7 /* LaunchScreen.storyboard */; };
+		45BE3579212FE39E00F662C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE3578212FE39E00F662C7 /* main.m */; };
+		45BE3586213005A800F662C7 /* JROperationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE3585213005A800F662C7 /* JROperationDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		45BE355A212EB91B00F662C7 /* MutiThreadUnsafeDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutiThreadUnsafeDemo.h; sourceTree = "<group>"; };
-		45BE355B212EB91B00F662C7 /* MutiThreadUnsafeDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutiThreadUnsafeDemo.m; sourceTree = "<group>"; };
-		45E239A9212C03BC001F9210 /* 01-ThreadLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-ThreadLock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		45E239AC212C03BC001F9210 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		45E239AD212C03BC001F9210 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		45E239AF212C03BC001F9210 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		45E239B0212C03BC001F9210 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		45E239B3212C03BC001F9210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		45E239B5212C03BD001F9210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		45E239B8212C03BD001F9210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		45E239BA212C03BD001F9210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45E239BB212C03BD001F9210 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		45E239C2212C0EE0001F9210 /* NSLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSLockDemo.h; sourceTree = "<group>"; };
-		45E239C3212C0EE0001F9210 /* NSLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLockDemo.m; sourceTree = "<group>"; };
-		45E239C6212C0FD8001F9210 /* LockProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockProtocol.h; sourceTree = "<group>"; };
+		45BE3566212FE39D00F662C7 /* 02-mutiThread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-mutiThread.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BE3569212FE39D00F662C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45BE356A212FE39D00F662C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45BE356C212FE39D00F662C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45BE356D212FE39D00F662C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45BE3570212FE39D00F662C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45BE3572212FE39E00F662C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45BE3575212FE39E00F662C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45BE3577212FE39E00F662C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BE3578212FE39E00F662C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45BE3584213005A800F662C7 /* JROperationDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JROperationDemo.h; sourceTree = "<group>"; };
+		45BE3585213005A800F662C7 /* JROperationDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JROperationDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		45E239A6212C03BC001F9210 /* Frameworks */ = {
+		45BE3563212FE39D00F662C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,78 +42,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		45E239A0212C03BC001F9210 = {
+		45BE355D212FE39D00F662C7 = {
 			isa = PBXGroup;
 			children = (
-				45E239AB212C03BC001F9210 /* 01-ThreadLock */,
-				45E239AA212C03BC001F9210 /* Products */,
+				45BE3568212FE39D00F662C7 /* 02-mutiThread */,
+				45BE3567212FE39D00F662C7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		45E239AA212C03BC001F9210 /* Products */ = {
+		45BE3567212FE39D00F662C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45E239A9212C03BC001F9210 /* 01-ThreadLock.app */,
+				45BE3566212FE39D00F662C7 /* 02-mutiThread.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		45E239AB212C03BC001F9210 /* 01-ThreadLock */ = {
+		45BE3568212FE39D00F662C7 /* 02-mutiThread */ = {
 			isa = PBXGroup;
 			children = (
-				45E239AC212C03BC001F9210 /* AppDelegate.h */,
-				45E239AD212C03BC001F9210 /* AppDelegate.m */,
-				45E239AF212C03BC001F9210 /* ViewController.h */,
-				45E239B0212C03BC001F9210 /* ViewController.m */,
-				45E239B2212C03BC001F9210 /* Main.storyboard */,
-				45E239B5212C03BD001F9210 /* Assets.xcassets */,
-				45E239B7212C03BD001F9210 /* LaunchScreen.storyboard */,
-				45E239BA212C03BD001F9210 /* Info.plist */,
-				45E239BB212C03BD001F9210 /* main.m */,
-				45E239C2212C0EE0001F9210 /* NSLockDemo.h */,
-				45E239C3212C0EE0001F9210 /* NSLockDemo.m */,
-				45E239C6212C0FD8001F9210 /* LockProtocol.h */,
-				45BE355A212EB91B00F662C7 /* MutiThreadUnsafeDemo.h */,
-				45BE355B212EB91B00F662C7 /* MutiThreadUnsafeDemo.m */,
+				45BE3569212FE39D00F662C7 /* AppDelegate.h */,
+				45BE356A212FE39D00F662C7 /* AppDelegate.m */,
+				45BE356C212FE39D00F662C7 /* ViewController.h */,
+				45BE356D212FE39D00F662C7 /* ViewController.m */,
+				45BE356F212FE39D00F662C7 /* Main.storyboard */,
+				45BE3572212FE39E00F662C7 /* Assets.xcassets */,
+				45BE3574212FE39E00F662C7 /* LaunchScreen.storyboard */,
+				45BE3577212FE39E00F662C7 /* Info.plist */,
+				45BE3578212FE39E00F662C7 /* main.m */,
+				45BE3584213005A800F662C7 /* JROperationDemo.h */,
+				45BE3585213005A800F662C7 /* JROperationDemo.m */,
 			);
-			path = "01-ThreadLock";
+			path = "02-mutiThread";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		45E239A8212C03BC001F9210 /* 01-ThreadLock */ = {
+		45BE3565212FE39D00F662C7 /* 02-mutiThread */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45E239BF212C03BD001F9210 /* Build configuration list for PBXNativeTarget "01-ThreadLock" */;
+			buildConfigurationList = 45BE357C212FE39E00F662C7 /* Build configuration list for PBXNativeTarget "02-mutiThread" */;
 			buildPhases = (
-				45E239A5212C03BC001F9210 /* Sources */,
-				45E239A6212C03BC001F9210 /* Frameworks */,
-				45E239A7212C03BC001F9210 /* Resources */,
+				45BE3562212FE39D00F662C7 /* Sources */,
+				45BE3563212FE39D00F662C7 /* Frameworks */,
+				45BE3564212FE39D00F662C7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "01-ThreadLock";
-			productName = "01-ThreadLock";
-			productReference = 45E239A9212C03BC001F9210 /* 01-ThreadLock.app */;
+			name = "02-mutiThread";
+			productName = "02-mutiThread";
+			productReference = 45BE3566212FE39D00F662C7 /* 02-mutiThread.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		45E239A1212C03BC001F9210 /* Project object */ = {
+		45BE355E212FE39D00F662C7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = jackfrow;
 				TargetAttributes = {
-					45E239A8212C03BC001F9210 = {
+					45BE3565212FE39D00F662C7 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
-			buildConfigurationList = 45E239A4212C03BC001F9210 /* Build configuration list for PBXProject "01-ThreadLock" */;
+			buildConfigurationList = 45BE3561212FE39D00F662C7 /* Build configuration list for PBXProject "02-mutiThread" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,57 +119,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 45E239A0212C03BC001F9210;
-			productRefGroup = 45E239AA212C03BC001F9210 /* Products */;
+			mainGroup = 45BE355D212FE39D00F662C7;
+			productRefGroup = 45BE3567212FE39D00F662C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45E239A8212C03BC001F9210 /* 01-ThreadLock */,
+				45BE3565212FE39D00F662C7 /* 02-mutiThread */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		45E239A7212C03BC001F9210 /* Resources */ = {
+		45BE3564212FE39D00F662C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45E239B9212C03BD001F9210 /* LaunchScreen.storyboard in Resources */,
-				45E239B6212C03BD001F9210 /* Assets.xcassets in Resources */,
-				45E239B4212C03BC001F9210 /* Main.storyboard in Resources */,
+				45BE3576212FE39E00F662C7 /* LaunchScreen.storyboard in Resources */,
+				45BE3573212FE39E00F662C7 /* Assets.xcassets in Resources */,
+				45BE3571212FE39D00F662C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		45E239A5212C03BC001F9210 /* Sources */ = {
+		45BE3562212FE39D00F662C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45E239B1212C03BC001F9210 /* ViewController.m in Sources */,
-				45E239BC212C03BD001F9210 /* main.m in Sources */,
-				45BE355C212EB91B00F662C7 /* MutiThreadUnsafeDemo.m in Sources */,
-				45E239C4212C0EE0001F9210 /* NSLockDemo.m in Sources */,
-				45E239AE212C03BC001F9210 /* AppDelegate.m in Sources */,
+				45BE356E212FE39D00F662C7 /* ViewController.m in Sources */,
+				45BE3579212FE39E00F662C7 /* main.m in Sources */,
+				45BE3586213005A800F662C7 /* JROperationDemo.m in Sources */,
+				45BE356B212FE39D00F662C7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		45E239B2212C03BC001F9210 /* Main.storyboard */ = {
+		45BE356F212FE39D00F662C7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				45E239B3212C03BC001F9210 /* Base */,
+				45BE3570212FE39D00F662C7 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		45E239B7212C03BD001F9210 /* LaunchScreen.storyboard */ = {
+		45BE3574212FE39E00F662C7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				45E239B8212C03BD001F9210 /* Base */,
+				45BE3575212FE39E00F662C7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -183,7 +176,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		45E239BD212C03BD001F9210 /* Debug */ = {
+		45BE357A212FE39E00F662C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		45E239BE212C03BD001F9210 /* Release */ = {
+		45BE357B212FE39E00F662C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,38 +286,43 @@
 			};
 			name = Release;
 		};
-		45E239C0212C03BD001F9210 /* Debug */ = {
+		45BE357D212FE39E00F662C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L63DQ52CN9;
-				INFOPLIST_FILE = "01-ThreadLock/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = "02-mutiThread/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "JR.-1-ThreadLock";
+				PRODUCT_BUNDLE_IDENTIFIER = "JR.-2-mutiThread";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "02-mutiThread/02-mutiThread-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		45E239C1212C03BD001F9210 /* Release */ = {
+		45BE357E212FE39E00F662C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L63DQ52CN9;
-				INFOPLIST_FILE = "01-ThreadLock/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = "02-mutiThread/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "JR.-1-ThreadLock";
+				PRODUCT_BUNDLE_IDENTIFIER = "JR.-2-mutiThread";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "02-mutiThread/02-mutiThread-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -332,25 +330,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		45E239A4212C03BC001F9210 /* Build configuration list for PBXProject "01-ThreadLock" */ = {
+		45BE3561212FE39D00F662C7 /* Build configuration list for PBXProject "02-mutiThread" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45E239BD212C03BD001F9210 /* Debug */,
-				45E239BE212C03BD001F9210 /* Release */,
+				45BE357A212FE39E00F662C7 /* Debug */,
+				45BE357B212FE39E00F662C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45E239BF212C03BD001F9210 /* Build configuration list for PBXNativeTarget "01-ThreadLock" */ = {
+		45BE357C212FE39E00F662C7 /* Build configuration list for PBXNativeTarget "02-mutiThread" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45E239C0212C03BD001F9210 /* Debug */,
-				45E239C1212C03BD001F9210 /* Release */,
+				45BE357D212FE39E00F662C7 /* Debug */,
+				45BE357E212FE39E00F662C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 45E239A1212C03BC001F9210 /* Project object */;
+	rootObject = 45BE355E212FE39D00F662C7 /* Project object */;
 }
