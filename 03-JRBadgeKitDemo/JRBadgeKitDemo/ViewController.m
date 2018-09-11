@@ -24,9 +24,12 @@ static int count = 5;
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    [self.testView setBadgeDirection:JBadgeDirectionLeft];
     [self.testView setMaximumBadgeNumber:100000];
-    [self.testView showBadge];
+//    [self.testView showBadge];
 
+
+      [self.testView showBadgeWithStyle:JBadgeStyleNecessary value:0];
 //    [self.testView showBadgeWithStyle:JBadgeStyleNecessary value:0];
 
 }

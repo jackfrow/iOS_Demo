@@ -19,6 +19,8 @@
 @property (nonatomic,assign) NSInteger maximumBadgeNumber;
 /*{0,0} is default .*/
 @property (nonatomic,assign) CGPoint badgeCenterOffset;
+/*badge direction ,default is right*/
+@property (nonatomic,assign) JBadgeDirection badgeDirection ;
 
 //prepare for show badge count;
 -(void)showBadgeCount:(NSInteger)badgeCount;

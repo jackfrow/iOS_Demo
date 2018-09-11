@@ -88,11 +88,13 @@ static const  NSInteger JRBadgeMaximumNumber = 99;
         self.badge.layer.cornerRadius = CGRectGetWidth(self.badge.frame) / 2.0;
     }
     self.badge.hidden = NO;
+    [self CommonSetUp];
 }
 -(void)updateBadgeFrame{
     //center is fixed,just modify size.
     self.badge.frame = CGRectMake(self.badge.center.x - self.badgeRadius, self.badge.center.y - self.badgeRadius, 2 * self.badgeRadius, 2 * self.badgeRadius);
 }
+
 
 -(void)showNewBadge{
     [self badgeInit];
@@ -105,6 +107,7 @@ static const  NSInteger JRBadgeMaximumNumber = 99;
         self.badge.layer.cornerRadius = CGRectGetHeight(self.badge.frame) / 3.0;
     }
     self.badge.hidden = NO;
+    [self CommonSetUp];
 
 }
 -(void)showBadgeNumberWithValue:(NSInteger)value{
@@ -131,7 +134,8 @@ static const  NSInteger JRBadgeMaximumNumber = 99;
     self.badge.center = CGPointMake(CGRectGetWidth(self.frame) + 2 +self.badgeCenterOffset.x ,self.badgeCenterOffset.y);
     self.badge.layer.cornerRadius = CGRectGetHeight(rect)/2;
 
-    
+    [self CommonSetUp];
+
 
 }
 -(void)showNecessaryBadge{
@@ -145,9 +149,11 @@ static const  NSInteger JRBadgeMaximumNumber = 99;
         [self adjustLabelWidth:self.badge];
        self.badge.center = CGPointMake(CGRectGetWidth(self.frame) + 2 + self.badgeCenterOffset.x, self.badgeCenterOffset.y);
     }
+    [self CommonSetUp];
 }
 -(void)showCustomBadge{
     [self badgeInit];
+    [self CommonSetUp];
     //implement by sub class. wait for use.
 }
 
@@ -182,6 +188,20 @@ static const  NSInteger JRBadgeMaximumNumber = 99;
 
 
 #pragma mark --  other private methods
+
+-(void)CommonSetUp{
+    [self layoutBadge];
+}
+
+-(void)layoutBadge{
+    if (self.badgeDirection == JBadgeDirectionLeft){
+//        CGRect frame = self.badge.frame;
+//
+//        self.badge.frame = frame;
+         self.badge.center = CGPointMake(-CGRectGetWidth(self.badge.frame)/2.0, self.badgeCenterOffset.y);
+    }
+}
+
 - (void)adjustLabelWidth:(UILabel *)label
 {
     [label setNumberOfLines:0];
@@ -209,6 +229,8 @@ static const  NSInteger JRBadgeMaximumNumber = 99;
     frame.size = CGSizeMake(ceilf(labelsize.width), ceilf(labelsize.height));
     [label setFrame:frame];
 }
+
+
 
 #pragma mark - setter/getter
 -(UILabel *)badge{
@@ -319,6 +341,22 @@ static const  NSInteger JRBadgeMaximumNumber = 99;
         [self badgeInit];
     }
     self.badge.center = CGPointMake(CGRectGetWidth(self.frame)+2+badgeCenterOffset.x, badgeCenterOffset.y);
+}
+
+- (JBadgeDirection)badgeDirection {
+    id obj = objc_getAssociatedObject(self, &badgeDirectionkey);
+    if (obj && [obj isKindOfClass:[NSNumber class]]){
+        return [obj integerValue];
+    } else{
+        return JBadgeDirectionRight;
+    }
+}
+
+- (void)setBadgeDirection:(JBadgeDirection)badgeDirection {
+    objc_setAssociatedObject(self, &badgeDirectionkey, @(badgeDirection), OBJC_ASSOCIATION_RETAIN);
+    if (!self.badge){
+        [self badgeInit];
+    }
 }
 
 @end

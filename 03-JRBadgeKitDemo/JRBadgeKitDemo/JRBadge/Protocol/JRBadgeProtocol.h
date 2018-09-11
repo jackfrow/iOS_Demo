@@ -17,11 +17,17 @@ static char badgeTextKey;
 static char badgeFontKey;
 static char badgeNumberKey;
 static char badgeOffsetKey;
+static char badgeDirectionkey;
 
 typedef NS_ENUM(NSInteger,JBadgeState){
     JBadgeStateHide = 0,
     JBadgeStateShow = 1,
     JBadgeStateUninitialized
+};
+
+typedef NS_ENUM(NSInteger,JBadgeDirection){
+    JBadgeDirectionRight,
+    JBadgeDirectionLeft
 };
 
 typedef NS_ENUM(NSInteger,JBadgeStyle) {
