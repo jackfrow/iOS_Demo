@@ -9,9 +9,12 @@
 #import "ViewController.h"
 #import "UIView+JRBadge.h"
 
+static int count = 5;
+
 @interface ViewController ()
 
 @property(weak, nonatomic) IBOutlet UIView *testView;
+
 @end
 
 
@@ -21,25 +24,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    [self.testView setMaximumBadgeNumber:100000];
     [self.testView showBadge];
 
-    [self.view showBadge];
+//    [self.testView showBadgeWithStyle:JBadgeStyleNecessary value:0];
 
 }
 
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 
-//    JBadgeState state = self.testView.getBadgeState;
-//
-//    if (state == JBadgeStateUninitialized) {
-//        [self.testView showBadge];
-//    }else if (state == JBadgeStateShow){
-//        [self.testView hideBadge];
-//    }else if (state == JBadgeStateHide){
-//        [self.testView resumeBadge];
-//    }
-    [self.testView showBadgeWithStyle:JBadgeStyleNew value:0];
+
+
+    count += 1;
+    [self.testView showBadgeCount:count];
+
 
 }
 

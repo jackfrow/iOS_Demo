@@ -11,8 +11,12 @@
 //key for associative methods during runtime
 static char badgeLabelKey;
 static char badgeBgKey;
-static char badgeTextKey;
+static char badgeColorKey;
 static char badgeRadiusKey;
+static char badgeTextKey;
+static char badgeFontKey;
+static char badgeNumberKey;
+static char badgeOffsetKey;
 
 typedef NS_ENUM(NSInteger,JBadgeState){
     JBadgeStateHide = 0,
