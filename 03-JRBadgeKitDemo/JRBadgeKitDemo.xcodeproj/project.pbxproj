@@ -14,6 +14,7 @@
 		4524BE74213FBC01006D8503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4524BE72213FBC01006D8503 /* LaunchScreen.storyboard */; };
 		4524BE77213FBC01006D8503 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4524BE76213FBC01006D8503 /* main.m */; };
 		4524BE80213FC079006D8503 /* UIView+JRBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4524BE7F213FC079006D8503 /* UIView+JRBadge.m */; };
+		BD7CB6410FD62349B3525AD6 /* UIBarButtonItem+JRBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7CBCBDC13511954FAED54B /* UIBarButtonItem+JRBadge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		4524BE7E213FC079006D8503 /* UIView+JRBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JRBadge.h"; sourceTree = "<group>"; };
 		4524BE7F213FC079006D8503 /* UIView+JRBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JRBadge.m"; sourceTree = "<group>"; };
 		4524BE83213FC484006D8503 /* JRBadgeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRBadgeProtocol.h; sourceTree = "<group>"; };
+		BD7CB116C815E6416B9B3FC2 /* UIBarButtonItem+JRBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JRBadge.h"; sourceTree = "<group>"; };
+		BD7CBCBDC13511954FAED54B /* UIBarButtonItem+JRBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JRBadge.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 			children = (
 				4524BE82213FC45D006D8503 /* Protocol */,
 				4524BE81213FC3B8006D8503 /* View */,
+				BD7CBE10E0C9D0A0C3BF9A96 /* BarItem */,
 			);
 			path = JRBadge;
 			sourceTree = "<group>";
@@ -100,6 +104,15 @@
 				4524BE83213FC484006D8503 /* JRBadgeProtocol.h */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		BD7CBE10E0C9D0A0C3BF9A96 /* BarItem */ = {
+			isa = PBXGroup;
+			children = (
+				BD7CBCBDC13511954FAED54B /* UIBarButtonItem+JRBadge.m */,
+				BD7CB116C815E6416B9B3FC2 /* UIBarButtonItem+JRBadge.h */,
+			);
+			path = BarItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +189,7 @@
 				4524BE77213FBC01006D8503 /* main.m in Sources */,
 				4524BE80213FC079006D8503 /* UIView+JRBadge.m in Sources */,
 				4524BE69213FBC00006D8503 /* AppDelegate.m in Sources */,
+				BD7CB6410FD62349B3525AD6 /* UIBarButtonItem+JRBadge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

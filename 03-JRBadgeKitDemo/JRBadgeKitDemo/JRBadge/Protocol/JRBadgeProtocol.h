@@ -65,6 +65,8 @@ typedef NS_ENUM(NSInteger,JBadgeStyle) {
  */
 -(JBadgeState)getBadgeState;
 
+
+#pragma mark - API
 /**
  *  show badge with red dot with default style.
  */

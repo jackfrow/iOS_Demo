@@ -12,6 +12,7 @@
 #import <SpriteKit/SpriteKit.h>
 
 
+//TODO:need adding animate for badge.
 #define JBadgeDefaultFont     ([UIFont boldSystemFontOfSize:12])
 
 
@@ -23,7 +24,7 @@ static const  NSInteger JRBadgeMaximumNumber = 99;
 #pragma mark - API Method
 
 -(void)showBadge{
-#warning need directtion for red dot.
+    //TODO: need directtion for red dot.
     [self showBadgeWithStyle:JBadgeStyleRedDot value:0];
 }
 
@@ -31,12 +32,14 @@ static const  NSInteger JRBadgeMaximumNumber = 99;
     self.badge.hidden = YES;
 }
 
+
 -(void)removeBadge{
     [self.badge removeFromSuperview];
     self.badge = nil;
 }
 
 -(void)resumeBadge{
+
     if (self.badge && self.badge.hidden == YES) {
         self.badge.hidden = NO;
     }
@@ -121,8 +124,8 @@ static const  NSInteger JRBadgeMaximumNumber = 99;
     self.badge.tag = JBadgeStyleNumber;
     self.badge.font = self.badgeFont;
     self.badge.text = (value > self.maximumBadgeNumber) ?
-            [[NSString alloc] initWithFormat:@"%d+",self.maximumBadgeNumber] :
-            [NSString stringWithFormat:@"%d",value];
+            [[NSString alloc] initWithFormat:@"%ld+",self.maximumBadgeNumber] :
+            [NSString stringWithFormat:@"%ld",value];
     [self adjustLabelWidth:self.badge];
     CGRect rect = self.badge.frame;
     rect.size.width += 4;
