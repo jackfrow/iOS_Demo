@@ -45,7 +45,6 @@
 //   [self getAllProperty];
      [self getIvarListWithClass:UIBarButtonItem .class];
 
-     UIBarButtonItem *item =[[UIBarButtonItem alloc] initWithTitle:@"test" style:UIBarButtonSystemItemAdd target:nil action:nil];
 }
 
 

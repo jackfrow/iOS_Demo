@@ -17,6 +17,8 @@
 
 @implementation MutiThreadUnsafeDemo
 
+
+//不加锁售票
 -(void)startSellTicket{
     
     self.totalTicket = 5;
@@ -67,6 +69,8 @@
     
 }
 
+
+//加锁售票
 -(void)selleTicketWithLock{
     
     //获取当前线程

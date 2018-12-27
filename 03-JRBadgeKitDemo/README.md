@@ -1,1 +1,1 @@
-1.badgeKit.
+本文是一个小红点添加的解决方案，可以给UIView,UIBarItem添加。
