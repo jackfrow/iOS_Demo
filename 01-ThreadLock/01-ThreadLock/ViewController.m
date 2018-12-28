@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
         //    [self CallNSlock];
         //    [self CallConditionLock];
         //    [self CallRecursiveLock];
@@ -28,8 +29,8 @@
 //    [self CallOSPinLock];
     
     MutiThreadUnsafeDemo* seller  = [[MutiThreadUnsafeDemo alloc] init];
-//    [demo startSellTicket];
-    [seller startSellTicketWithLock];
+    [seller startSellTicket];
+//    [seller startSellTicketWithLock];
     
 }
 
