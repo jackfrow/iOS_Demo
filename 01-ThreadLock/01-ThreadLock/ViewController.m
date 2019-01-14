@@ -29,8 +29,8 @@
 //    [self CallOSPinLock];
     
     MutiThreadUnsafeDemo* seller  = [[MutiThreadUnsafeDemo alloc] init];
-    [seller startSellTicket];
-//    [seller startSellTicketWithLock];
+//    [seller startSellTicket];
+    [seller startSellTicketWithLock];
     
 }
 

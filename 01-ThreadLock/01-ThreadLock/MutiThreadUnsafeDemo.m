@@ -41,7 +41,7 @@
     //方法中的数据会被拷贝到栈中去.
     //一直卖票,直到票数为0
     while(1){
-         NSInteger total = self.totalTicket;
+        NSInteger total = self.totalTicket;
         NSLog(@"当前线程%@,total的地址 = %p,totalTicket的地址 = %p",currentThread,&total,&self->_totalTicket);
         if(self.totalTicket > 0){
             NSLog(@"%@使用的对象地址是%p",currentThread,&total);
@@ -50,7 +50,7 @@
             //打印卖票日志
             NSLog(@"%@卖出一张票,票号为%ld",currentThread,(long)self.totalTicket);
             //票数减一
-            self.totalTicket = self.totalTicket - 1;
+            self.totalTicket = total - 1;
         }else{
             NSLog(@"票卖完了.%@",currentThread);
             break;
