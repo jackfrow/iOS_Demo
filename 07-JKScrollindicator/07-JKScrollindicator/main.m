@@ -1,8 +1,8 @@
 //
 //  main.m
-//  07-JKStringEncodeDemo
+//  07-JKScrollindicator
 //
-//  Created by jackfrow on 2019/1/11.
+//  Created by jackfrow on 2019/1/23.
 //  Copyright © 2019 jackfrow. All rights reserved.
 //
 

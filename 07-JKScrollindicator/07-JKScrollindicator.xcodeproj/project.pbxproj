@@ -7,29 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4575956721E89A4800A60943 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4575956621E89A4800A60943 /* AppDelegate.m */; };
-		4575956A21E89A4800A60943 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4575956921E89A4800A60943 /* ViewController.m */; };
-		4575956D21E89A4800A60943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4575956B21E89A4800A60943 /* Main.storyboard */; };
-		4575956F21E89A4900A60943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4575956E21E89A4900A60943 /* Assets.xcassets */; };
-		4575957221E89A4900A60943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4575957021E89A4900A60943 /* LaunchScreen.storyboard */; };
-		4575957521E89A4900A60943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4575957421E89A4900A60943 /* main.m */; };
+		454048BB21F8415C002EC141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 454048BA21F8415C002EC141 /* AppDelegate.m */; };
+		454048BE21F8415C002EC141 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454048BD21F8415C002EC141 /* ViewController.m */; };
+		454048C121F8415C002EC141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454048BF21F8415C002EC141 /* Main.storyboard */; };
+		454048C321F8415D002EC141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454048C221F8415D002EC141 /* Assets.xcassets */; };
+		454048C621F8415D002EC141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454048C421F8415D002EC141 /* LaunchScreen.storyboard */; };
+		454048C921F8415D002EC141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 454048C821F8415D002EC141 /* main.m */; };
+		454048D221F8431C002EC141 /* JKScrollindicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 454048D121F8431C002EC141 /* JKScrollindicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4575956221E89A4800A60943 /* 07-JKStringEncodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07-JKStringEncodeDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4575956521E89A4800A60943 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4575956621E89A4800A60943 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4575956821E89A4800A60943 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4575956921E89A4800A60943 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4575956C21E89A4800A60943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4575956E21E89A4900A60943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4575957121E89A4900A60943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4575957321E89A4900A60943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4575957421E89A4900A60943 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		454048B621F8415C002EC141 /* 07-JKScrollindicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07-JKScrollindicator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		454048B921F8415C002EC141 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		454048BA21F8415C002EC141 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		454048BC21F8415C002EC141 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		454048BD21F8415C002EC141 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		454048C021F8415C002EC141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		454048C221F8415D002EC141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		454048C521F8415D002EC141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		454048C721F8415D002EC141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454048C821F8415D002EC141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		454048D021F8431C002EC141 /* JKScrollindicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKScrollindicator.h; sourceTree = "<group>"; };
+		454048D121F8431C002EC141 /* JKScrollindicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKScrollindicator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4575955F21E89A4800A60943 /* Frameworks */ = {
+		454048B321F8415C002EC141 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +42,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4575955921E89A4800A60943 = {
+		454048AD21F8415C002EC141 = {
 			isa = PBXGroup;
 			children = (
-				4575956421E89A4800A60943 /* 07-JKStringEncodeDemo */,
-				4575956321E89A4800A60943 /* Products */,
+				454048B821F8415C002EC141 /* 07-JKScrollindicator */,
+				454048B721F8415C002EC141 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4575956321E89A4800A60943 /* Products */ = {
+		454048B721F8415C002EC141 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4575956221E89A4800A60943 /* 07-JKStringEncodeDemo.app */,
+				454048B621F8415C002EC141 /* 07-JKScrollindicator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4575956421E89A4800A60943 /* 07-JKStringEncodeDemo */ = {
+		454048B821F8415C002EC141 /* 07-JKScrollindicator */ = {
 			isa = PBXGroup;
 			children = (
-				4575956521E89A4800A60943 /* AppDelegate.h */,
-				4575956621E89A4800A60943 /* AppDelegate.m */,
-				4575956821E89A4800A60943 /* ViewController.h */,
-				4575956921E89A4800A60943 /* ViewController.m */,
-				4575956B21E89A4800A60943 /* Main.storyboard */,
-				4575956E21E89A4900A60943 /* Assets.xcassets */,
-				4575957021E89A4900A60943 /* LaunchScreen.storyboard */,
-				4575957321E89A4900A60943 /* Info.plist */,
-				4575957421E89A4900A60943 /* main.m */,
+				454048CF21F842E7002EC141 /* JKScrollindicator */,
+				454048B921F8415C002EC141 /* AppDelegate.h */,
+				454048BA21F8415C002EC141 /* AppDelegate.m */,
+				454048BC21F8415C002EC141 /* ViewController.h */,
+				454048BD21F8415C002EC141 /* ViewController.m */,
+				454048BF21F8415C002EC141 /* Main.storyboard */,
+				454048C221F8415D002EC141 /* Assets.xcassets */,
+				454048C421F8415D002EC141 /* LaunchScreen.storyboard */,
+				454048C721F8415D002EC141 /* Info.plist */,
+				454048C821F8415D002EC141 /* main.m */,
 			);
-			path = "07-JKStringEncodeDemo";
+			path = "07-JKScrollindicator";
+			sourceTree = "<group>";
+		};
+		454048CF21F842E7002EC141 /* JKScrollindicator */ = {
+			isa = PBXGroup;
+			children = (
+				454048D021F8431C002EC141 /* JKScrollindicator.h */,
+				454048D121F8431C002EC141 /* JKScrollindicator.m */,
+			);
+			path = JKScrollindicator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4575956121E89A4800A60943 /* 07-JKStringEncodeDemo */ = {
+		454048B521F8415C002EC141 /* 07-JKScrollindicator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4575957821E89A4900A60943 /* Build configuration list for PBXNativeTarget "07-JKStringEncodeDemo" */;
+			buildConfigurationList = 454048CC21F8415D002EC141 /* Build configuration list for PBXNativeTarget "07-JKScrollindicator" */;
 			buildPhases = (
-				4575955E21E89A4800A60943 /* Sources */,
-				4575955F21E89A4800A60943 /* Frameworks */,
-				4575956021E89A4800A60943 /* Resources */,
+				454048B221F8415C002EC141 /* Sources */,
+				454048B321F8415C002EC141 /* Frameworks */,
+				454048B421F8415C002EC141 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "07-JKStringEncodeDemo";
-			productName = "07-JKStringEncodeDemo";
-			productReference = 4575956221E89A4800A60943 /* 07-JKStringEncodeDemo.app */;
+			name = "07-JKScrollindicator";
+			productName = "07-JKScrollindicator";
+			productReference = 454048B621F8415C002EC141 /* 07-JKScrollindicator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4575955A21E89A4800A60943 /* Project object */ = {
+		454048AE21F8415C002EC141 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = jackfrow;
 				TargetAttributes = {
-					4575956121E89A4800A60943 = {
+					454048B521F8415C002EC141 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 4575955D21E89A4800A60943 /* Build configuration list for PBXProject "07-JKStringEncodeDemo" */;
+			buildConfigurationList = 454048B121F8415C002EC141 /* Build configuration list for PBXProject "07-JKScrollindicator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,55 +126,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 4575955921E89A4800A60943;
-			productRefGroup = 4575956321E89A4800A60943 /* Products */;
+			mainGroup = 454048AD21F8415C002EC141;
+			productRefGroup = 454048B721F8415C002EC141 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4575956121E89A4800A60943 /* 07-JKStringEncodeDemo */,
+				454048B521F8415C002EC141 /* 07-JKScrollindicator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4575956021E89A4800A60943 /* Resources */ = {
+		454048B421F8415C002EC141 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4575957221E89A4900A60943 /* LaunchScreen.storyboard in Resources */,
-				4575956F21E89A4900A60943 /* Assets.xcassets in Resources */,
-				4575956D21E89A4800A60943 /* Main.storyboard in Resources */,
+				454048C621F8415D002EC141 /* LaunchScreen.storyboard in Resources */,
+				454048C321F8415D002EC141 /* Assets.xcassets in Resources */,
+				454048C121F8415C002EC141 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4575955E21E89A4800A60943 /* Sources */ = {
+		454048B221F8415C002EC141 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4575956A21E89A4800A60943 /* ViewController.m in Sources */,
-				4575957521E89A4900A60943 /* main.m in Sources */,
-				4575956721E89A4800A60943 /* AppDelegate.m in Sources */,
+				454048BE21F8415C002EC141 /* ViewController.m in Sources */,
+				454048C921F8415D002EC141 /* main.m in Sources */,
+				454048BB21F8415C002EC141 /* AppDelegate.m in Sources */,
+				454048D221F8431C002EC141 /* JKScrollindicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4575956B21E89A4800A60943 /* Main.storyboard */ = {
+		454048BF21F8415C002EC141 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4575956C21E89A4800A60943 /* Base */,
+				454048C021F8415C002EC141 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4575957021E89A4900A60943 /* LaunchScreen.storyboard */ = {
+		454048C421F8415D002EC141 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4575957121E89A4900A60943 /* Base */,
+				454048C521F8415D002EC141 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +183,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4575957621E89A4900A60943 /* Debug */ = {
+		454048CA21F8415D002EC141 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +242,7 @@
 			};
 			name = Debug;
 		};
-		4575957721E89A4900A60943 /* Release */ = {
+		454048CB21F8415D002EC141 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,37 +295,35 @@
 			};
 			name = Release;
 		};
-		4575957921E89A4900A60943 /* Debug */ = {
+		454048CD21F8415D002EC141 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L63DQ52CN9;
-				INFOPLIST_FILE = "07-JKStringEncodeDemo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = "07-JKScrollindicator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "JR.-7-JKStringEncodeDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = "JR.-7-JKScrollindicator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4575957A21E89A4900A60943 /* Release */ = {
+		454048CE21F8415D002EC141 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L63DQ52CN9;
-				INFOPLIST_FILE = "07-JKStringEncodeDemo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = "07-JKScrollindicator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "JR.-7-JKStringEncodeDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = "JR.-7-JKScrollindicator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,25 +332,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4575955D21E89A4800A60943 /* Build configuration list for PBXProject "07-JKStringEncodeDemo" */ = {
+		454048B121F8415C002EC141 /* Build configuration list for PBXProject "07-JKScrollindicator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4575957621E89A4900A60943 /* Debug */,
-				4575957721E89A4900A60943 /* Release */,
+				454048CA21F8415D002EC141 /* Debug */,
+				454048CB21F8415D002EC141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4575957821E89A4900A60943 /* Build configuration list for PBXNativeTarget "07-JKStringEncodeDemo" */ = {
+		454048CC21F8415D002EC141 /* Build configuration list for PBXNativeTarget "07-JKScrollindicator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4575957921E89A4900A60943 /* Debug */,
-				4575957A21E89A4900A60943 /* Release */,
+				454048CD21F8415D002EC141 /* Debug */,
+				454048CE21F8415D002EC141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4575955A21E89A4800A60943 /* Project object */;
+	rootObject = 454048AE21F8415C002EC141 /* Project object */;
 }

@@ -1,5 +1,0 @@
-platform :ios, ‘9.0’
-
-target '07-JKStringEncodeDemo' do
-  pod 'YYKit'                     #工具库
-end
