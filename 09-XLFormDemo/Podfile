@@ -1,0 +1,5 @@
+platform :ios, ‘10.0’
+
+target 'XLFormDemo' do
+    pod 'XLForm', '~> 4.0'
+ end
