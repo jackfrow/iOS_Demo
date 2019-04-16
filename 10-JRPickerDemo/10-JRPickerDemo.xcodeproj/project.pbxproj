@@ -13,6 +13,11 @@
 		45DCC95B2265BDF400431145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DCC95A2265BDF400431145 /* Assets.xcassets */; };
 		45DCC95E2265BDF400431145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DCC95C2265BDF400431145 /* LaunchScreen.storyboard */; };
 		45DCC9612265BDF400431145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DCC9602265BDF400431145 /* main.m */; };
+		45DCC96B2265BE9800431145 /* JRPickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DCC96A2265BE9800431145 /* JRPickerModel.m */; };
+		45DCC96E2265BEA900431145 /* JRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DCC96D2265BEA900431145 /* JRPickerView.m */; };
+		45DCC9722265C54300431145 /* NSArray+JRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DCC9712265C54300431145 /* NSArray+JRAdd.m */; };
+		45DCC9752265C55400431145 /* UIView+JRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DCC9742265C55400431145 /* UIView+JRAdd.m */; };
+		45DCC9782265C56800431145 /* UIColor+JRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DCC9772265C56800431145 /* UIColor+JRAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,17 @@
 		45DCC95D2265BDF400431145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45DCC95F2265BDF400431145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45DCC9602265BDF400431145 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45DCC9682265BE8700431145 /* JRPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRPicker.h; sourceTree = "<group>"; };
+		45DCC9692265BE9800431145 /* JRPickerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRPickerModel.h; sourceTree = "<group>"; };
+		45DCC96A2265BE9800431145 /* JRPickerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRPickerModel.m; sourceTree = "<group>"; };
+		45DCC96C2265BEA900431145 /* JRPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRPickerView.h; sourceTree = "<group>"; };
+		45DCC96D2265BEA900431145 /* JRPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRPickerView.m; sourceTree = "<group>"; };
+		45DCC9702265C54300431145 /* NSArray+JRAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+JRAdd.h"; sourceTree = "<group>"; };
+		45DCC9712265C54300431145 /* NSArray+JRAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JRAdd.m"; sourceTree = "<group>"; };
+		45DCC9732265C55400431145 /* UIView+JRAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JRAdd.h"; sourceTree = "<group>"; };
+		45DCC9742265C55400431145 /* UIView+JRAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JRAdd.m"; sourceTree = "<group>"; };
+		45DCC9762265C56800431145 /* UIColor+JRAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+JRAdd.h"; sourceTree = "<group>"; };
+		45DCC9772265C56800431145 /* UIColor+JRAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JRAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 		45DCC9502265BDF200431145 /* 10-JRPickerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				45DCC9672265BDF900431145 /* JRPicker */,
 				45DCC9512265BDF200431145 /* AppDelegate.h */,
 				45DCC9522265BDF200431145 /* AppDelegate.m */,
 				45DCC9542265BDF200431145 /* ViewController.h */,
@@ -69,6 +86,32 @@
 				45DCC9602265BDF400431145 /* main.m */,
 			);
 			path = "10-JRPickerDemo";
+			sourceTree = "<group>";
+		};
+		45DCC9672265BDF900431145 /* JRPicker */ = {
+			isa = PBXGroup;
+			children = (
+				45DCC96F2265C52C00431145 /* Categorys */,
+				45DCC9682265BE8700431145 /* JRPicker.h */,
+				45DCC9692265BE9800431145 /* JRPickerModel.h */,
+				45DCC96A2265BE9800431145 /* JRPickerModel.m */,
+				45DCC96C2265BEA900431145 /* JRPickerView.h */,
+				45DCC96D2265BEA900431145 /* JRPickerView.m */,
+			);
+			path = JRPicker;
+			sourceTree = "<group>";
+		};
+		45DCC96F2265C52C00431145 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				45DCC9702265C54300431145 /* NSArray+JRAdd.h */,
+				45DCC9712265C54300431145 /* NSArray+JRAdd.m */,
+				45DCC9732265C55400431145 /* UIView+JRAdd.h */,
+				45DCC9742265C55400431145 /* UIView+JRAdd.m */,
+				45DCC9762265C56800431145 /* UIColor+JRAdd.h */,
+				45DCC9772265C56800431145 /* UIColor+JRAdd.m */,
+			);
+			path = Categorys;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45DCC9722265C54300431145 /* NSArray+JRAdd.m in Sources */,
 				45DCC9562265BDF200431145 /* ViewController.m in Sources */,
+				45DCC96E2265BEA900431145 /* JRPickerView.m in Sources */,
+				45DCC96B2265BE9800431145 /* JRPickerModel.m in Sources */,
 				45DCC9612265BDF400431145 /* main.m in Sources */,
 				45DCC9532265BDF200431145 /* AppDelegate.m in Sources */,
+				45DCC9752265C55400431145 /* UIView+JRAdd.m in Sources */,
+				45DCC9782265C56800431145 /* UIColor+JRAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L63DQ52CN9;
+				DEVELOPMENT_TEAM = GG7U7YKRY5;
 				INFOPLIST_FILE = "10-JRPickerDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L63DQ52CN9;
+				DEVELOPMENT_TEAM = GG7U7YKRY5;
 				INFOPLIST_FILE = "10-JRPickerDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
