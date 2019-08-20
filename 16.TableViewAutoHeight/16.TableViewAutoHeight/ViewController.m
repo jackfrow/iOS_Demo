@@ -63,9 +63,13 @@ static NSString * const cellId3 = @"cellId3";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     AutoHeightCell3 *cell = [tableView dequeueReusableCellWithIdentifier:cellId3 forIndexPath:indexPath];
-//    [cell setContentTitle:self.models[indexPath.row]];
+    //    [cell setContentTitle:self.models[indexPath.row]];
     [cell random];
     return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 
@@ -77,13 +81,15 @@ static NSString * const cellId3 = @"cellId3";
         _models = [NSMutableArray array];
         
         for (int i = 0; i < 20; i++) {
-            NSInteger index = arc4random() % string.length - 1;
-            NSString* subString = [string substringToIndex:index];
+            
+            NSInteger index = (arc4random() % string.length - 1);
+            NSString* subString = [string substringToIndex: index];
             [_models addObject:subString];
         }
-    
+        
     }
     return _models;
 }
 
 @end
+
