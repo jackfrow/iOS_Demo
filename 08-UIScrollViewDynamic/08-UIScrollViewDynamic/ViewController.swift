@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
-        
         //🌰
         let scrollView = UIScrollView()
         scrollView.contentSize = calculateContentSize(scrollView: scrollView)
@@ -31,16 +30,15 @@ class ViewController: UIViewController {
 
 
 func calculateContentSize(scrollView: UIScrollView) -> CGSize {
-    var topPoint = CGFloat()
-    var height = CGFloat()
+
+    var maxY = CGFloat()
     
     for subview in scrollView.subviews {
-        if subview.frame.origin.y > topPoint {
-            topPoint = subview.frame.origin.y
-            height = subview.frame.size.height
+        if subview.frame.maxY > maxY {
+            maxY = subview.frame.maxY
         }
     }
-    return CGSize(width: scrollView.frame.size.width, height: height + topPoint)
+    return CGSize(width: scrollView.frame.size.width, height: maxY)
 }
 
 extension UIScrollView {

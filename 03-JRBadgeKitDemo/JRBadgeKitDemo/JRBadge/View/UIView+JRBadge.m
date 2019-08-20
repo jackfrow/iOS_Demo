@@ -198,9 +198,6 @@ static const  NSInteger JRBadgeMaximumNumber = 99;
 
 -(void)layoutBadge{
     if (self.badgeDirection == JBadgeDirectionLeft){
-//        CGRect frame = self.badge.frame;
-//
-//        self.badge.frame = frame;
          self.badge.center = CGPointMake(-CGRectGetWidth(self.badge.frame)/2.0, self.badgeCenterOffset.y);
     }
 }
