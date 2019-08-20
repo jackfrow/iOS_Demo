@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "AutoHeightCell.h"
 #import "AutoHeightCell2.h"
+#import "AutoHeightCell3.h"
+//self-size在自动算高时,会循环遍历子视图的所有子视图,拿到最大的高度，用来返回给cell做高度。
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -29,6 +31,7 @@
 #pragma mark - tableView
 static NSString * const cellId = @"cellId";
 static NSString * const cellId2 = @"cellId2";
+static NSString * const cellId3 = @"cellId3";
 - (UIView *)tableView {
     if (!_tableView) {
         _tableView = ({
@@ -38,6 +41,7 @@ static NSString * const cellId2 = @"cellId2";
             tableView.dataSource = self;
             [tableView registerNib:[UINib nibWithNibName:@"AutoHeightCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:cellId];
             [tableView registerNib:[UINib nibWithNibName:@"AutoHeightCell2" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:cellId2];
+            [tableView registerNib:[UINib nibWithNibName:@"AutoHeightCell3" bundle:[NSBundle mainBundle]] forCellReuseIdentifier: cellId3];
             [self.view addSubview:tableView];
             tableView;
         });
@@ -58,9 +62,9 @@ static NSString * const cellId2 = @"cellId2";
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    AutoHeightCell2 *cell = [tableView dequeueReusableCellWithIdentifier:cellId2 forIndexPath:indexPath];
-    [cell setContentTitle:self.models[indexPath.row]];
-    // code
+    AutoHeightCell3 *cell = [tableView dequeueReusableCellWithIdentifier:cellId3 forIndexPath:indexPath];
+//    [cell setContentTitle:self.models[indexPath.row]];
+    [cell random];
     return cell;
 }
 

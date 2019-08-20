@@ -17,6 +17,8 @@
 		1B5CD7D9230A4AA100BDF5F0 /* AutoHeightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5CD7D8230A4AA100BDF5F0 /* AutoHeightCell.xib */; };
 		1B5CD7DD230A767500BDF5F0 /* AutoHeightCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CD7DB230A767500BDF5F0 /* AutoHeightCell2.m */; };
 		1B5CD7DE230A767500BDF5F0 /* AutoHeightCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5CD7DC230A767500BDF5F0 /* AutoHeightCell2.xib */; };
+		1B7709E5230BC63E0073CA7B /* AutoHeightCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7709E3230BC63E0073CA7B /* AutoHeightCell3.m */; };
+		1B7709E6230BC63E0073CA7B /* AutoHeightCell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B7709E4230BC63E0073CA7B /* AutoHeightCell3.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,9 @@
 		1B5CD7DA230A767500BDF5F0 /* AutoHeightCell2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoHeightCell2.h; sourceTree = "<group>"; };
 		1B5CD7DB230A767500BDF5F0 /* AutoHeightCell2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoHeightCell2.m; sourceTree = "<group>"; };
 		1B5CD7DC230A767500BDF5F0 /* AutoHeightCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoHeightCell2.xib; sourceTree = "<group>"; };
+		1B7709E2230BC63E0073CA7B /* AutoHeightCell3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoHeightCell3.h; sourceTree = "<group>"; };
+		1B7709E3230BC63E0073CA7B /* AutoHeightCell3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoHeightCell3.m; sourceTree = "<group>"; };
+		1B7709E4230BC63E0073CA7B /* AutoHeightCell3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoHeightCell3.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,9 @@
 				1B5CD7DA230A767500BDF5F0 /* AutoHeightCell2.h */,
 				1B5CD7DB230A767500BDF5F0 /* AutoHeightCell2.m */,
 				1B5CD7DC230A767500BDF5F0 /* AutoHeightCell2.xib */,
+				1B7709E2230BC63E0073CA7B /* AutoHeightCell3.h */,
+				1B7709E3230BC63E0073CA7B /* AutoHeightCell3.m */,
+				1B7709E4230BC63E0073CA7B /* AutoHeightCell3.xib */,
 			);
 			path = 16.TableViewAutoHeight;
 			sourceTree = "<group>";
@@ -147,6 +155,7 @@
 				1B5CD7CC230A49A400BDF5F0 /* LaunchScreen.storyboard in Resources */,
 				1B5CD7D9230A4AA100BDF5F0 /* AutoHeightCell.xib in Resources */,
 				1B5CD7DE230A767500BDF5F0 /* AutoHeightCell2.xib in Resources */,
+				1B7709E6230BC63E0073CA7B /* AutoHeightCell3.xib in Resources */,
 				1B5CD7C9230A49A400BDF5F0 /* Assets.xcassets in Resources */,
 				1B5CD7C7230A49A200BDF5F0 /* Main.storyboard in Resources */,
 			);
@@ -162,6 +171,7 @@
 				1B5CD7C4230A49A200BDF5F0 /* ViewController.m in Sources */,
 				1B5CD7DD230A767500BDF5F0 /* AutoHeightCell2.m in Sources */,
 				1B5CD7D7230A4A8900BDF5F0 /* AutoHeightCell.m in Sources */,
+				1B7709E5230BC63E0073CA7B /* AutoHeightCell3.m in Sources */,
 				1B5CD7CF230A49A400BDF5F0 /* main.m in Sources */,
 				1B5CD7C1230A49A200BDF5F0 /* AppDelegate.m in Sources */,
 			);

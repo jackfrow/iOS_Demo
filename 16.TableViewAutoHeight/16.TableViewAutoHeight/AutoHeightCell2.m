@@ -12,7 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *ContentLabel;
 
-
 @end
 
 @implementation AutoHeightCell2
