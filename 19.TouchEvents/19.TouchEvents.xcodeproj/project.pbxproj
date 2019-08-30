@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BC0FC052318002000F52B6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC0FC042318002000F52B6F /* AppDelegate.m */; };
+		1BC0FC0B2318002000F52B6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC0FC0A2318002000F52B6F /* ViewController.m */; };
+		1BC0FC0E2318002000F52B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC0FC0C2318002000F52B6F /* Main.storyboard */; };
+		1BC0FC102318002100F52B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC0FC0F2318002100F52B6F /* Assets.xcassets */; };
+		1BC0FC132318002100F52B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC0FC112318002100F52B6F /* LaunchScreen.storyboard */; };
+		1BC0FC162318002100F52B6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC0FC152318002100F52B6F /* main.m */; };
+		1BC0FC1F231806B700F52B6F /* JRTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC0FC1E231806B700F52B6F /* JRTouchView.m */; };
+		1BC0FC2223180A8A00F52B6F /* GSTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC0FC2123180A8A00F52B6F /* GSTViewController.m */; };
+		1BC0FC252318B99700F52B6F /* JRTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC0FC242318B99700F52B6F /* JRTapGestureRecognizer.m */; };
+		1BC0FC282318BF2F00F52B6F /* JRWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC0FC272318BF2F00F52B6F /* JRWindow.m */; };
+		1BC0FC2B2318C61600F52B6F /* JRButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC0FC2A2318C61600F52B6F /* JRButton.m */; };
+		1BC0FC2F2318C65300F52B6F /* ControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC0FC2E2318C65300F52B6F /* ControlViewController.m */; };
+		1BC0FC322318CB0A00F52B6F /* CustomControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC0FC312318CB0A00F52B6F /* CustomControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BC0FC002318002000F52B6F /* 19.TouchEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 19.TouchEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC0FC032318002000F52B6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BC0FC042318002000F52B6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BC0FC092318002000F52B6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BC0FC0A2318002000F52B6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BC0FC0D2318002000F52B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BC0FC0F2318002100F52B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BC0FC122318002100F52B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BC0FC142318002100F52B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BC0FC152318002100F52B6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BC0FC1D231806B700F52B6F /* JRTouchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRTouchView.h; sourceTree = "<group>"; };
+		1BC0FC1E231806B700F52B6F /* JRTouchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRTouchView.m; sourceTree = "<group>"; };
+		1BC0FC2023180A8A00F52B6F /* GSTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSTViewController.h; sourceTree = "<group>"; };
+		1BC0FC2123180A8A00F52B6F /* GSTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSTViewController.m; sourceTree = "<group>"; };
+		1BC0FC232318B99700F52B6F /* JRTapGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRTapGestureRecognizer.h; sourceTree = "<group>"; };
+		1BC0FC242318B99700F52B6F /* JRTapGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRTapGestureRecognizer.m; sourceTree = "<group>"; };
+		1BC0FC262318BF2F00F52B6F /* JRWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRWindow.h; sourceTree = "<group>"; };
+		1BC0FC272318BF2F00F52B6F /* JRWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRWindow.m; sourceTree = "<group>"; };
+		1BC0FC292318C61600F52B6F /* JRButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRButton.h; sourceTree = "<group>"; };
+		1BC0FC2A2318C61600F52B6F /* JRButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRButton.m; sourceTree = "<group>"; };
+		1BC0FC2D2318C65300F52B6F /* ControlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlViewController.h; sourceTree = "<group>"; };
+		1BC0FC2E2318C65300F52B6F /* ControlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlViewController.m; sourceTree = "<group>"; };
+		1BC0FC302318CB0A00F52B6F /* CustomControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomControl.h; sourceTree = "<group>"; };
+		1BC0FC312318CB0A00F52B6F /* CustomControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BC0FBFD2318002000F52B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BC0FBF72318002000F52B6F = {
+			isa = PBXGroup;
+			children = (
+				1BC0FC022318002000F52B6F /* 19.TouchEvents */,
+				1BC0FC012318002000F52B6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BC0FC012318002000F52B6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BC0FC002318002000F52B6F /* 19.TouchEvents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BC0FC022318002000F52B6F /* 19.TouchEvents */ = {
+			isa = PBXGroup;
+			children = (
+				1BC0FC2C2318C63900F52B6F /* UIControl */,
+				1BC0FC1C2318066F00F52B6F /* Gesture */,
+				1BC0FC032318002000F52B6F /* AppDelegate.h */,
+				1BC0FC042318002000F52B6F /* AppDelegate.m */,
+				1BC0FC092318002000F52B6F /* ViewController.h */,
+				1BC0FC0A2318002000F52B6F /* ViewController.m */,
+				1BC0FC0C2318002000F52B6F /* Main.storyboard */,
+				1BC0FC0F2318002100F52B6F /* Assets.xcassets */,
+				1BC0FC112318002100F52B6F /* LaunchScreen.storyboard */,
+				1BC0FC142318002100F52B6F /* Info.plist */,
+				1BC0FC152318002100F52B6F /* main.m */,
+				1BC0FC1D231806B700F52B6F /* JRTouchView.h */,
+				1BC0FC1E231806B700F52B6F /* JRTouchView.m */,
+				1BC0FC232318B99700F52B6F /* JRTapGestureRecognizer.h */,
+				1BC0FC242318B99700F52B6F /* JRTapGestureRecognizer.m */,
+				1BC0FC262318BF2F00F52B6F /* JRWindow.h */,
+				1BC0FC272318BF2F00F52B6F /* JRWindow.m */,
+				1BC0FC292318C61600F52B6F /* JRButton.h */,
+				1BC0FC2A2318C61600F52B6F /* JRButton.m */,
+				1BC0FC302318CB0A00F52B6F /* CustomControl.h */,
+				1BC0FC312318CB0A00F52B6F /* CustomControl.m */,
+			);
+			path = 19.TouchEvents;
+			sourceTree = "<group>";
+		};
+		1BC0FC1C2318066F00F52B6F /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				1BC0FC2023180A8A00F52B6F /* GSTViewController.h */,
+				1BC0FC2123180A8A00F52B6F /* GSTViewController.m */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
+		1BC0FC2C2318C63900F52B6F /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				1BC0FC2D2318C65300F52B6F /* ControlViewController.h */,
+				1BC0FC2E2318C65300F52B6F /* ControlViewController.m */,
+			);
+			path = UIControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BC0FBFF2318002000F52B6F /* 19.TouchEvents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC0FC192318002100F52B6F /* Build configuration list for PBXNativeTarget "19.TouchEvents" */;
+			buildPhases = (
+				1BC0FBFC2318002000F52B6F /* Sources */,
+				1BC0FBFD2318002000F52B6F /* Frameworks */,
+				1BC0FBFE2318002000F52B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 19.TouchEvents;
+			productName = 19.TouchEvents;
+			productReference = 1BC0FC002318002000F52B6F /* 19.TouchEvents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BC0FBF82318002000F52B6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Jackfrow;
+				TargetAttributes = {
+					1BC0FBFF2318002000F52B6F = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 1BC0FBFB2318002000F52B6F /* Build configuration list for PBXProject "19.TouchEvents" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BC0FBF72318002000F52B6F;
+			productRefGroup = 1BC0FC012318002000F52B6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BC0FBFF2318002000F52B6F /* 19.TouchEvents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BC0FBFE2318002000F52B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC0FC132318002100F52B6F /* LaunchScreen.storyboard in Resources */,
+				1BC0FC102318002100F52B6F /* Assets.xcassets in Resources */,
+				1BC0FC0E2318002000F52B6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BC0FBFC2318002000F52B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC0FC2223180A8A00F52B6F /* GSTViewController.m in Sources */,
+				1BC0FC0B2318002000F52B6F /* ViewController.m in Sources */,
+				1BC0FC052318002000F52B6F /* AppDelegate.m in Sources */,
+				1BC0FC1F231806B700F52B6F /* JRTouchView.m in Sources */,
+				1BC0FC322318CB0A00F52B6F /* CustomControl.m in Sources */,
+				1BC0FC282318BF2F00F52B6F /* JRWindow.m in Sources */,
+				1BC0FC2F2318C65300F52B6F /* ControlViewController.m in Sources */,
+				1BC0FC2B2318C61600F52B6F /* JRButton.m in Sources */,
+				1BC0FC162318002100F52B6F /* main.m in Sources */,
+				1BC0FC252318B99700F52B6F /* JRTapGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BC0FC0C2318002000F52B6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC0FC0D2318002000F52B6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BC0FC112318002100F52B6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC0FC122318002100F52B6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BC0FC172318002100F52B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1BC0FC182318002100F52B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BC0FC1A2318002100F52B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L63DQ52CN9;
+				INFOPLIST_FILE = 19.TouchEvents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fh.-9-TouchEvents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BC0FC1B2318002100F52B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L63DQ52CN9;
+				INFOPLIST_FILE = 19.TouchEvents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fh.-9-TouchEvents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BC0FBFB2318002000F52B6F /* Build configuration list for PBXProject "19.TouchEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC0FC172318002100F52B6F /* Debug */,
+				1BC0FC182318002100F52B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC0FC192318002100F52B6F /* Build configuration list for PBXNativeTarget "19.TouchEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC0FC1A2318002100F52B6F /* Debug */,
+				1BC0FC1B2318002100F52B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BC0FBF82318002000F52B6F /* Project object */;
+}
