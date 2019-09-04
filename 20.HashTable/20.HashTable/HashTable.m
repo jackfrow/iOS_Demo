@@ -137,9 +137,11 @@
                 if (firstNode) {//如果是第一个节点,则替换
                     HashNode* next = node.next;
                     [self.elementArray replaceObjectAtIndex:index withObject:next];
+                    _countSize -= 1;
                     return;
                 }else{
                     pre.next = node.next;
+                    _countSize -= 1;
                     return;
                 }
               
