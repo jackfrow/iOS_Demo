@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "HashTable.h"
 
-static int loopCount = 1000;
+static int loopCount = 100000;
 
 void testMyhash(){
  
@@ -28,7 +28,8 @@ void testMyhash(){
     
     for (int i = 0 ; i < loopCount; i++) {
         NSString* key = [NSString stringWithFormat:@"%d",i];
-        NSLog(@"key = %@ ---- value = %@",key,[table loopUpForKey:key]);
+        [table loopUpForKey:key];
+//        NSLog(@"key = %@ ---- value = %@",key,[table loopUpForKey:key]);
     }
     
     CFAbsoluteTime endTime = (CFAbsoluteTimeGetCurrent() - startTime);
@@ -52,7 +53,8 @@ void testSystem(){
        
        for (int i = 0 ; i < loopCount; i++) {
            NSString* key = [NSString stringWithFormat:@"%d",i];
-           NSLog(@"key = %@ ---- value = %@",key,[dic objectForKey:key]);
+           [dic objectForKey:key];
+//           NSLog(@"key = %@ ---- value = %@",key,[dic objectForKey:key]);
        }
        
        CFAbsoluteTime endTime = (CFAbsoluteTimeGetCurrent() - startTime);
