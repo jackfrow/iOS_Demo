@@ -55,8 +55,6 @@ class MergeVideoViewController: UIViewController {
         
         self.present(mediaPickerController, animated: true, completion: nil)
         
-    
-        
     }
     
     @IBAction func Merge(_ sender: Any) {
@@ -64,13 +62,13 @@ class MergeVideoViewController: UIViewController {
         guard let firstAsset = firstAsset, let secondAsset = secondAsset else{
             return
         }
+        
         indicator.startAnimating()
         
         // 1 - Create AVMutableComposition object. This object will hold your AVMutableCompositionTrack instances.
         let mixCompostion = AVMutableComposition()
         
-        // 2 - Create two video tracks
-        
+        // 2 - Create video tracks
         guard let compositionTrack = mixCompostion.addMutableTrack(withMediaType: .video, preferredTrackID: kCMPersistentTrackID_Invalid) else {
             return
         }
@@ -79,7 +77,7 @@ class MergeVideoViewController: UIViewController {
         let secondTimeRange = CMTimeRange(start: .zero, duration: secondAsset.duration)
         
         //appen video
-        
+        //注意:如果有相机拍摄的视屏,视屏默认是横屏的.
         do {
             try compositionTrack.insertTimeRange(firstTimeRange, of: firstAsset.tracks(withMediaType: .video)[0], at: .zero)
             try compositionTrack.insertTimeRange(secondTimeRange, of: secondAsset.tracks(withMediaType: .video)[0], at: firstAsset.duration)
@@ -164,20 +162,18 @@ class MergeVideoViewController: UIViewController {
             saveVideoToPhotos()
         }
         
-        
-        
     }
     
     
     //MARK:- Help
-   func savedPhotosAvailable() -> Bool {
-     guard !UIImagePickerController.isSourceTypeAvailable(.savedPhotosAlbum) else { return true }
-     
-     let alert = UIAlertController(title: "Not Available", message: "No Saved Album found", preferredStyle: .alert)
-     alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
-     present(alert, animated: true, completion: nil)
-     return false
-   }
+//   func savedPhotosAvailable() -> Bool {
+//     guard !UIImagePickerController.isSourceTypeAvailable(.savedPhotosAlbum) else { return true }
+//
+//     let alert = UIAlertController(title: "Not Available", message: "No Saved Album found", preferredStyle: .alert)
+//     alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+//     present(alert, animated: true, completion: nil)
+//     return false
+//   }
    
 
 }

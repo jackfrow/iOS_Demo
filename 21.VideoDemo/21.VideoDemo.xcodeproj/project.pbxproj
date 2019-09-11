@@ -16,6 +16,14 @@
 		1B6EF24E232344240000BFD3 /* RecordVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6EF24D232344240000BFD3 /* RecordVideoViewController.swift */; };
 		1B6EF2502323443C0000BFD3 /* MergeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6EF24F2323443C0000BFD3 /* MergeVideoViewController.swift */; };
 		1B6EF25223234FE20000BFD3 /* VideoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6EF25123234FE20000BFD3 /* VideoHelper.swift */; };
+		1BEBF44623261FF0001E6021 /* CommonVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBF44523261FF0001E6021 /* CommonVideoController.swift */; };
+		1BEBF4482326209E001E6021 /* EditeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBF4472326209E001E6021 /* EditeVideoViewController.swift */; };
+		1BEBF44B23262B9A001E6021 /* AddBorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBF44A23262B9A001E6021 /* AddBorderViewController.swift */; };
+		1BEBF44D23262BC4001E6021 /* AddOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBF44C23262BC4001E6021 /* AddOverlayViewController.swift */; };
+		1BEBF44F23262C09001E6021 /* AddSubTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBF44E23262C09001E6021 /* AddSubTitleViewController.swift */; };
+		1BEBF45123262C1C001E6021 /* AddTiltViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBF45023262C1C001E6021 /* AddTiltViewController.swift */; };
+		1BEBF45323262C27001E6021 /* AddAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBF45223262C27001E6021 /* AddAnimationViewController.swift */; };
+		1BEBF455232632BF001E6021 /* UIimage+compress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBF454232632BF001E6021 /* UIimage+compress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +38,14 @@
 		1B6EF24D232344240000BFD3 /* RecordVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
 		1B6EF24F2323443C0000BFD3 /* MergeVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeVideoViewController.swift; sourceTree = "<group>"; };
 		1B6EF25123234FE20000BFD3 /* VideoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoHelper.swift; sourceTree = "<group>"; };
+		1BEBF44523261FF0001E6021 /* CommonVideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonVideoController.swift; sourceTree = "<group>"; };
+		1BEBF4472326209E001E6021 /* EditeVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditeVideoViewController.swift; sourceTree = "<group>"; };
+		1BEBF44A23262B9A001E6021 /* AddBorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBorderViewController.swift; sourceTree = "<group>"; };
+		1BEBF44C23262BC4001E6021 /* AddOverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOverlayViewController.swift; sourceTree = "<group>"; };
+		1BEBF44E23262C09001E6021 /* AddSubTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubTitleViewController.swift; sourceTree = "<group>"; };
+		1BEBF45023262C1C001E6021 /* AddTiltViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTiltViewController.swift; sourceTree = "<group>"; };
+		1BEBF45223262C27001E6021 /* AddAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnimationViewController.swift; sourceTree = "<group>"; };
+		1BEBF454232632BF001E6021 /* UIimage+compress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIimage+compress.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,7 @@
 		1B6EF234232340010000BFD3 /* 21.VideoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1BEBF44923262B72001E6021 /* EditeViewControllers */,
 				1B6EF25123234FE20000BFD3 /* VideoHelper.swift */,
 				1B6EF24F2323443C0000BFD3 /* MergeVideoViewController.swift */,
 				1B6EF24B232343C40000BFD3 /* PlayVideoViewController.swift */,
@@ -72,8 +89,23 @@
 				1B6EF23E232340040000BFD3 /* Assets.xcassets */,
 				1B6EF240232340040000BFD3 /* LaunchScreen.storyboard */,
 				1B6EF243232340040000BFD3 /* Info.plist */,
+				1BEBF44523261FF0001E6021 /* CommonVideoController.swift */,
+				1BEBF4472326209E001E6021 /* EditeVideoViewController.swift */,
+				1BEBF454232632BF001E6021 /* UIimage+compress.swift */,
 			);
 			path = 21.VideoDemo;
+			sourceTree = "<group>";
+		};
+		1BEBF44923262B72001E6021 /* EditeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBF44A23262B9A001E6021 /* AddBorderViewController.swift */,
+				1BEBF44C23262BC4001E6021 /* AddOverlayViewController.swift */,
+				1BEBF44E23262C09001E6021 /* AddSubTitleViewController.swift */,
+				1BEBF45023262C1C001E6021 /* AddTiltViewController.swift */,
+				1BEBF45223262C27001E6021 /* AddAnimationViewController.swift */,
+			);
+			path = EditeViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +180,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B6EF23A232340010000BFD3 /* ViewController.swift in Sources */,
+				1BEBF455232632BF001E6021 /* UIimage+compress.swift in Sources */,
+				1BEBF45123262C1C001E6021 /* AddTiltViewController.swift in Sources */,
 				1B6EF2502323443C0000BFD3 /* MergeVideoViewController.swift in Sources */,
+				1BEBF44F23262C09001E6021 /* AddSubTitleViewController.swift in Sources */,
+				1BEBF45323262C27001E6021 /* AddAnimationViewController.swift in Sources */,
+				1BEBF4482326209E001E6021 /* EditeVideoViewController.swift in Sources */,
 				1B6EF236232340010000BFD3 /* AppDelegate.swift in Sources */,
 				1B6EF25223234FE20000BFD3 /* VideoHelper.swift in Sources */,
+				1BEBF44623261FF0001E6021 /* CommonVideoController.swift in Sources */,
+				1BEBF44B23262B9A001E6021 /* AddBorderViewController.swift in Sources */,
+				1BEBF44D23262BC4001E6021 /* AddOverlayViewController.swift in Sources */,
 				1B6EF24C232343C40000BFD3 /* PlayVideoViewController.swift in Sources */,
 				1B6EF24E232344240000BFD3 /* RecordVideoViewController.swift in Sources */,
 			);
