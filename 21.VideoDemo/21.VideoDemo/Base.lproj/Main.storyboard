@@ -83,10 +83,10 @@
         <!--EditeVideoViewController-->
         <scene sceneID="hnu-ZR-UoP">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TF4-6Y-fgv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder referencedIdentifier="EditeVideoViewController" id="GKi-VG-GzS" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="8yi-q6-cOL"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TF4-6Y-fgv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="286" y="250"/>
         </scene>
