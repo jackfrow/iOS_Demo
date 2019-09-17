@@ -92,7 +92,6 @@ class JRVideoEditor: NSObject {
         }
         
         
-        
     }
     
     func buildCompositionAudioTracks()  {
@@ -209,7 +208,7 @@ class JRVideoEditor: NSObject {
     // MARK: - utils
     private class func createTemplateFileURL() -> URL {
         
-        NSHomeDirectory()
+//        NSHomeDirectory()
         let path = NSTemporaryDirectory() + "composition.mp4"
         let fileURL = URL(fileURLWithPath: path)
         if FileManager.default.fileExists(atPath: fileURL.path) {

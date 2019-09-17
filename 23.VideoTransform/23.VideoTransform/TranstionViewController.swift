@@ -18,14 +18,7 @@ class TranstionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//       AVAssetExportSession
-        
-//        AVMutableVideoCompositionInstruction
-        
-//        let composition = AVMutableComposition()
-//        let videoComposition = AVMutableVideoComposition(propertiesOf: composition)
-        
-//         videoComposition = AVMutableVideoComposition(propertiesOf: compostion)
+
 
         
          //加载bundle中的视频
