@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14865.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JNv-Pf-44a">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14819.2"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Scroll Layer View Controller-->
+        <scene sceneID="RNG-eS-R3t">
+            <objects>
+                <viewController id="JNv-Pf-44a" customClass="CAScrollLayerViewController" customModule="_4_CalayerTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="90f-au-4wL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="RPQ-vM-4FV">
+                                <rect key="frame" x="82" y="280" width="250" height="336"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CZr-5U-Rht" customClass="ScrollingView" customModule="_4_CalayerTutorial" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cresentEarthRisesAboveLunarHorizon" translatesAutoresizingMaskIntoConstraints="NO" id="afj-WF-Yzq">
+                                                <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <gestureRecognizers/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="EVf-2m-4rR"/>
+                                            <constraint firstAttribute="height" constant="250" id="lUf-Oc-ldP"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Ck1-Zt-lTU" appends="YES" id="TBj-NH-J2J"/>
+                                        </connections>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="BEE-yX-3Ez">
+                                        <rect key="frame" x="0.0" y="266" width="250" height="70"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Qmy-j6-pAY">
+                                                <rect key="frame" x="0.0" y="0.0" width="250" height="31"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Horizontal scrolling" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8HV-gk-z6r">
+                                                        <rect key="frame" x="0.0" y="0.0" width="193" height="31"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ElN-ro-e5w">
+                                                        <rect key="frame" x="201" y="0.0" width="51" height="31"/>
+                                                        <connections>
+                                                            <action selector="scrollingSwitchChanged:" destination="JNv-Pf-44a" eventType="valueChanged" id="6nZ-zr-Nku"/>
+                                                        </connections>
+                                                    </switch>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hl5-h9-1Ap">
+                                                <rect key="frame" x="0.0" y="39" width="250" height="31"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vertical scrolling" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glh-5Z-5kT">
+                                                        <rect key="frame" x="0.0" y="0.0" width="193" height="31"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ABK-r5-9rI">
+                                                        <rect key="frame" x="201" y="0.0" width="51" height="31"/>
+                                                        <connections>
+                                                            <action selector="scrollingSwitchChanged:" destination="JNv-Pf-44a" eventType="valueChanged" id="ewI-Gh-UBZ"/>
+                                                        </connections>
+                                                    </switch>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RPQ-vM-4FV" firstAttribute="centerX" secondItem="90f-au-4wL" secondAttribute="centerX" id="Z7m-n5-keJ"/>
+                            <constraint firstItem="RPQ-vM-4FV" firstAttribute="centerY" secondItem="90f-au-4wL" secondAttribute="centerY" id="oZq-qc-EKF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="F8R-oa-ak3"/>
+                    </view>
+                    <connections>
+                        <outlet property="horizontalScrollingSwitch" destination="ElN-ro-e5w" id="d0v-B0-Szb"/>
+                        <outlet property="scrollingView" destination="CZr-5U-Rht" id="mq9-5g-aeS"/>
+                        <outlet property="verticalScrollingSwitch" destination="ABK-r5-9rI" id="PVP-XP-jvj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7CY-6A-YmM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Ck1-Zt-lTU">
+                    <connections>
+                        <action selector="panRecognized:" destination="JNv-Pf-44a" id="smZ-xT-Cjf"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="71.014492753623188" y="75.669642857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cresentEarthRisesAboveLunarHorizon" width="1280" height="1280"/>
+    </resources>
+</document>
