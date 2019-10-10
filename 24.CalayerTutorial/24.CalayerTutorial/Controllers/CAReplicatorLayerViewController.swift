@@ -30,6 +30,7 @@ class CAReplicatorLayerViewController: UIViewController {
     
     // MARK: - Quick reference
     func setUpReplicatorLayer()  {
+        
         replicatorLayer.frame =  viewForReplicatorLayer.bounds
         let count = instanceCountSlider.value
         replicatorLayer.instanceCount = Int(count)
@@ -47,9 +48,9 @@ class CAReplicatorLayerViewController: UIViewController {
     func setUpInstanceLayer() {
       let layerWidth = CGFloat(layerSizeSlider.value)
       let midX = viewForReplicatorLayer.bounds.midX - layerWidth / 2.0
-      instanceLayer.frame = CGRect(x: midX, y: 0.0, width: layerWidth, height: layerWidth * lengthMultiplier)
-//        instanceLayer.frame = CGRect(x: midX, y: 0.0, width: layerWidth, height: layerWidth)
-//        instanceLayer.cornerRadius = layerWidth/2.0
+//      instanceLayer.frame = CGRect(x: midX, y: 0.0, width: layerWidth, height: layerWidth * lengthMultiplier)
+        instanceLayer.frame = CGRect(x: midX, y: 0.0, width: layerWidth, height: layerWidth)
+        instanceLayer.cornerRadius = layerWidth/2.0
       instanceLayer.backgroundColor = whiteColor
     }
     
