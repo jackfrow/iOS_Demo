@@ -13,10 +13,32 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
-        let test = TestTableViewController()
+      
+        testJson()
+        
+    }
+    
+    
+    func testJson()  {
+        
+       let str = "赵云"
+        let data = str.data(using: .utf8)
+        
+        do {
+            try  let json =  JSONSerialization.jsonObject(with: data!, options: .mutableContainers)
+            
+            
+        } catch  {
+            
+            print("decode failed")
+            
+        }
+
         
         
     }
+    
+    
 
 
 }

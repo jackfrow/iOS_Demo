@@ -10,10 +10,11 @@ import UIKit
 
 //可插拔式，如果不想要某个功能了,直接减少掉某个协议即可
 
-class ActionButton: UIButton,Shakeable,Dimmable {
-
+class ActionButton: UIButton,Dimmable,Shakeable {
  
-//    func shake() {
+}
+
+//     func shake() {
 //          let animation = CABasicAnimation(keyPath: "position")
 //          animation.duration = 0.05
 //          animation.repeatCount = 5
@@ -25,4 +26,19 @@ class ActionButton: UIButton,Shakeable,Dimmable {
 //      }
     
 
-}
+
+
+//extension UIView{
+//
+//    func shake() {
+//            let animation = CABasicAnimation(keyPath: "position")
+//            animation.duration = 0.05
+//            animation.repeatCount = 5
+//            animation.autoreverses = true
+//            animation.fromValue = CGPoint(x: self.center.x - 4.0, y: self.center.y)
+//            animation.toValue = CGPoint(x: self.center.x + 4.0, y: self.center.y)
+//          layer.add(animation, forKey: "positionAnimation")
+//
+//        }
+//
+//}

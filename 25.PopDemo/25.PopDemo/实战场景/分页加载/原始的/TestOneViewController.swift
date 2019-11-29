@@ -20,14 +20,11 @@ class TestOneViewController: BaseTableViewController {
         loadNext()
         
     }
-    
+
     override func doLoad(handler: (Any?) -> Void) {
         
         print("dosomething")
         self.data = [ Friend(nickName: "张天")]
         self.tableView.reloadData()
     }
-
-
-
 }

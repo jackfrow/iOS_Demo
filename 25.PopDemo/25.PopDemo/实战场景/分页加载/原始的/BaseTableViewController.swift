@@ -17,9 +17,6 @@ class BaseTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-
-
     }
     
     func loadNext() {
@@ -30,11 +27,9 @@ class BaseTableViewController: UITableViewController {
     self.lastId = 9981
     self.hasNext = false
         };
+    }
+    }
 
-    }
-        
-    }
-        
     func doLoad(handler: (Any?)->Void) { // ??
        
     }

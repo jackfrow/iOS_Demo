@@ -1,0 +1,6 @@
+framework module Pods_27_JRCircleDemo {
+  umbrella header "Pods-27-JRCircleDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

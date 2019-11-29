@@ -8,9 +8,10 @@
 
 import UIKit
 
-class FoodImageView: UIImageView,Shakeable,Dimmable {
-
+class FoodImageView: UIImageView,Dimmable,Shakeable {
   
+}
+
 //    func shake() {
 //          let animation = CABasicAnimation(keyPath: "position")
 //          animation.duration = 0.05
@@ -23,7 +24,7 @@ class FoodImageView: UIImageView,Shakeable,Dimmable {
 //      }
     
 
-}
+
 
 
 

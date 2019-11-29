@@ -17,14 +17,11 @@ class FriendCollectionViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-
+        
         loadNext()
         
     }
     
-   
 }
 
 extension FriendCollectionViewController: NextPageLoadable{

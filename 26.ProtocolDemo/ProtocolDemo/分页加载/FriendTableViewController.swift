@@ -36,7 +36,6 @@ extension FriendTableViewController: NextPageLoadable{
     func performLoad(successHandler: ([Friend], Bool, Int?) -> (), failHandler: () -> ()) {
         
         //在这里发起网络请求
-        
        let random = arc4random()%10
         if random > 5 {
             

@@ -16,6 +16,8 @@ class ChannelsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+           loadNext()
+        
     }
 
 }

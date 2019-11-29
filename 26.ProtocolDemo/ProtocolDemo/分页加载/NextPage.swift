@@ -31,13 +31,12 @@ struct NextPageState<T> {
         lastId = nil
     }
     
-    
     mutating func reset(){
         hasNext = true
         isLoading = false
         lastId = nil
     }
-    
+
     mutating func update(hasNext: Bool,isLoading: Bool,lastId: T?){
         self.hasNext = hasNext
         self.isLoading = isLoading
@@ -62,16 +61,8 @@ protocol NextPageLoadable: class {
      failHandler: () -> ()
     )
 }
-
-
-protocol ReloadableType {
-    func reloadData()
-}
-
-extension UITableView: ReloadableType{}
-extension UICollectionView: ReloadableType{}
-
 extension NextPageLoadable {
+    
     func loadNext(view: ReloadableType)  {
         
         guard nextPageState.hasNext else {return}
@@ -106,3 +97,10 @@ extension NextPageLoadable where Self: UICollectionViewController{
         loadNext(view: collectionView)
     }
 }
+
+protocol ReloadableType {
+    func reloadData()
+}
+
+extension UITableView: ReloadableType{}
+extension UICollectionView: ReloadableType{}

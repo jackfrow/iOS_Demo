@@ -19,19 +19,17 @@ class ChannelsTableViewController: UITableViewController {
 
     private var lastId: Int? = nil
     private var hasNext = true
-    
     private var data: [Channel] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-  
         load()
         
     }
     
-    
     func load()  {
+        
         if hasNext {
             
             self.lastId = 9527
@@ -41,9 +39,6 @@ class ChannelsTableViewController: UITableViewController {
             
         }
     }
-
-
-
 
 }
 

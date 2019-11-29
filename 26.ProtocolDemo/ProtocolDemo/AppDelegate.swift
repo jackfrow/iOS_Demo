@@ -8,6 +8,8 @@
 
 import UIKit
 
+//参考文章:https://onevcat.com/2016/12/pop-cocoa-2/
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
