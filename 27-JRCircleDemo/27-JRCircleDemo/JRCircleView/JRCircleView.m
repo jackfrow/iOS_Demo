@@ -8,8 +8,7 @@
 
 #import "JRCircleView.h"
 #import "UIColor+Hex.h"
-
-@import Masonry;
+#import "Masonry.h"
 
 @interface JRCircleView ()
 
