@@ -22,24 +22,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    
+    [self test];
     
-    __weak id temp = nil;
-    {
-        ZHPerson *person = [[ZHPerson alloc] init];
-        temp = person;
-    }
-    NSLog(@"temp = %@",temp);
     
-    __weak id temp2 = nil;
-    
-    {
-        ZHPerson* person = [ZHPerson object];
-        temp2 = person;
-    }
-    NSLog(@"temp2 = %@",temp2);
+//    __weak id temp = nil;
+//    {
+//        ZHPerson *person = [[ZHPerson alloc] init];
+//        temp = person;
+//    }
+//    NSLog(@"temp = %@",temp);
+//
+//    __weak id temp2 = nil;
+//
+//    {
+//        ZHPerson* person = [ZHPerson object];
+//        temp2 = person;
+//    }
+//    NSLog(@"temp2 = %@",temp2);
 
 }
 
+-(void)test{
+    NSLog(@"strings");
+}
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
 
