@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45DE2A1F240F563300E6657F /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE2A1E240F563300E6657F /* LogViewController.m */; };
+		45E38440240CE0EF00C726DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E3843F240CE0EF00C726DB /* AppDelegate.m */; };
+		45E38446240CE0EF00C726DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E38445240CE0EF00C726DB /* ViewController.m */; };
+		45E38449240CE0EF00C726DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E38447240CE0EF00C726DB /* Main.storyboard */; };
+		45E3844B240CE0F000C726DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E3844A240CE0F000C726DB /* Assets.xcassets */; };
+		45E3844E240CE0F000C726DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E3844C240CE0F000C726DB /* LaunchScreen.storyboard */; };
+		45E38451240CE0F000C726DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E38450240CE0F000C726DB /* main.m */; };
+		45E38461240CE12F00C726DB /* PacketTunnelProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E38460240CE12F00C726DB /* PacketTunnelProvider.m */; };
+		45E38465240CE12F00C726DB /* VPNTunnelDemo.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 45E3845B240CE12F00C726DB /* VPNTunnelDemo.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		45E3846C240CE4B300C726DB /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E3846B240CE4B300C726DB /* NetworkExtension.framework */; };
+		45E38470240CE68200C726DB /* XmVpnManagerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E3846F240CE68200C726DB /* XmVpnManagerModel.m */; };
+		45E38473240CE69800C726DB /* XmVpnManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E38472240CE69800C726DB /* XmVpnManager.m */; };
+		45E38476240CE9B000C726DB /* NSMutableDictionary+XMSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E38475240CE9B000C726DB /* NSMutableDictionary+XMSafe.m */; };
+		45E38479240D0CDC00C726DB /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E3846B240CE4B300C726DB /* NetworkExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45E38463240CE12F00C726DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E38433240CE0EF00C726DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45E3845A240CE12F00C726DB;
+			remoteInfo = VPNTunnelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4557C229241F701E0009B27D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E38469240CE12F00C726DB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				45E38465240CE12F00C726DB /* VPNTunnelDemo.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		45DE2A1D240F563300E6657F /* LogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
+		45DE2A1E240F563300E6657F /* LogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
+		45E3843B240CE0EF00C726DB /* 34.VPNDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 34.VPNDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E3843E240CE0EF00C726DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45E3843F240CE0EF00C726DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45E38444240CE0EF00C726DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45E38445240CE0EF00C726DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45E38448240CE0EF00C726DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45E3844A240CE0F000C726DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45E3844D240CE0F000C726DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45E3844F240CE0F000C726DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E38450240CE0F000C726DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45E3845B240CE12F00C726DB /* VPNTunnelDemo.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VPNTunnelDemo.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E3845F240CE12F00C726DB /* PacketTunnelProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketTunnelProvider.h; sourceTree = "<group>"; };
+		45E38460240CE12F00C726DB /* PacketTunnelProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PacketTunnelProvider.m; sourceTree = "<group>"; };
+		45E38462240CE12F00C726DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E3846B240CE4B300C726DB /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		45E3846E240CE68200C726DB /* XmVpnManagerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XmVpnManagerModel.h; sourceTree = "<group>"; };
+		45E3846F240CE68200C726DB /* XmVpnManagerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XmVpnManagerModel.m; sourceTree = "<group>"; };
+		45E38471240CE69800C726DB /* XmVpnManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XmVpnManager.h; sourceTree = "<group>"; };
+		45E38472240CE69800C726DB /* XmVpnManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XmVpnManager.m; sourceTree = "<group>"; };
+		45E38474240CE9B000C726DB /* NSMutableDictionary+XMSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+XMSafe.h"; sourceTree = "<group>"; };
+		45E38475240CE9B000C726DB /* NSMutableDictionary+XMSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+XMSafe.m"; sourceTree = "<group>"; };
+		45E38478240D0CDC00C726DB /* 34.VPNDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 34.VPNDemo.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45E38438240CE0EF00C726DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E38479240D0CDC00C726DB /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E38458240CE12F00C726DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E3846C240CE4B300C726DB /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45E38432240CE0EF00C726DB = {
+			isa = PBXGroup;
+			children = (
+				45E3843D240CE0EF00C726DB /* 34.VPNDemo */,
+				45E3845C240CE12F00C726DB /* VPNTunnelDemo */,
+				45E3843C240CE0EF00C726DB /* Products */,
+				45E3846A240CE4B300C726DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45E3843C240CE0EF00C726DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45E3843B240CE0EF00C726DB /* 34.VPNDemo.app */,
+				45E3845B240CE12F00C726DB /* VPNTunnelDemo.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45E3843D240CE0EF00C726DB /* 34.VPNDemo */ = {
+			isa = PBXGroup;
+			children = (
+				45E38478240D0CDC00C726DB /* 34.VPNDemo.entitlements */,
+				45E3846D240CE64300C726DB /* XmVpnManager */,
+				45E3843E240CE0EF00C726DB /* AppDelegate.h */,
+				45E3843F240CE0EF00C726DB /* AppDelegate.m */,
+				45E38444240CE0EF00C726DB /* ViewController.h */,
+				45E38445240CE0EF00C726DB /* ViewController.m */,
+				45E38447240CE0EF00C726DB /* Main.storyboard */,
+				45E3844A240CE0F000C726DB /* Assets.xcassets */,
+				45E3844C240CE0F000C726DB /* LaunchScreen.storyboard */,
+				45E3844F240CE0F000C726DB /* Info.plist */,
+				45E38450240CE0F000C726DB /* main.m */,
+				45E38474240CE9B000C726DB /* NSMutableDictionary+XMSafe.h */,
+				45E38475240CE9B000C726DB /* NSMutableDictionary+XMSafe.m */,
+				45DE2A1D240F563300E6657F /* LogViewController.h */,
+				45DE2A1E240F563300E6657F /* LogViewController.m */,
+			);
+			path = 34.VPNDemo;
+			sourceTree = "<group>";
+		};
+		45E3845C240CE12F00C726DB /* VPNTunnelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				45E3845F240CE12F00C726DB /* PacketTunnelProvider.h */,
+				45E38460240CE12F00C726DB /* PacketTunnelProvider.m */,
+				45E38462240CE12F00C726DB /* Info.plist */,
+				45E3845D240CE12F00C726DB /* Supporting Files */,
+			);
+			path = VPNTunnelDemo;
+			sourceTree = "<group>";
+		};
+		45E3845D240CE12F00C726DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45E3846A240CE4B300C726DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45E3846B240CE4B300C726DB /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45E3846D240CE64300C726DB /* XmVpnManager */ = {
+			isa = PBXGroup;
+			children = (
+				45E3846E240CE68200C726DB /* XmVpnManagerModel.h */,
+				45E3846F240CE68200C726DB /* XmVpnManagerModel.m */,
+				45E38471240CE69800C726DB /* XmVpnManager.h */,
+				45E38472240CE69800C726DB /* XmVpnManager.m */,
+			);
+			path = XmVpnManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45E3843A240CE0EF00C726DB /* 34.VPNDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E38454240CE0F000C726DB /* Build configuration list for PBXNativeTarget "34.VPNDemo" */;
+			buildPhases = (
+				45E38437240CE0EF00C726DB /* Sources */,
+				45E38438240CE0EF00C726DB /* Frameworks */,
+				45E38439240CE0EF00C726DB /* Resources */,
+				45E38469240CE12F00C726DB /* Embed App Extensions */,
+				4557C229241F701E0009B27D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45E38464240CE12F00C726DB /* PBXTargetDependency */,
+			);
+			name = 34.VPNDemo;
+			productName = 34.VPNDemo;
+			productReference = 45E3843B240CE0EF00C726DB /* 34.VPNDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45E3845A240CE12F00C726DB /* VPNTunnelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E38466240CE12F00C726DB /* Build configuration list for PBXNativeTarget "VPNTunnelDemo" */;
+			buildPhases = (
+				45E38457240CE12F00C726DB /* Sources */,
+				45E38458240CE12F00C726DB /* Frameworks */,
+				45E38459240CE12F00C726DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPNTunnelDemo;
+			productName = VPNTunnelDemo;
+			productReference = 45E3845B240CE12F00C726DB /* VPNTunnelDemo.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45E38433240CE0EF00C726DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = jackfrow;
+				TargetAttributes = {
+					45E3843A240CE0EF00C726DB = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					45E3845A240CE12F00C726DB = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 45E38436240CE0EF00C726DB /* Build configuration list for PBXProject "34.VPNDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45E38432240CE0EF00C726DB;
+			productRefGroup = 45E3843C240CE0EF00C726DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45E3843A240CE0EF00C726DB /* 34.VPNDemo */,
+				45E3845A240CE12F00C726DB /* VPNTunnelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45E38439240CE0EF00C726DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E3844E240CE0F000C726DB /* LaunchScreen.storyboard in Resources */,
+				45E3844B240CE0F000C726DB /* Assets.xcassets in Resources */,
+				45E38449240CE0EF00C726DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E38459240CE12F00C726DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45E38437240CE0EF00C726DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DE2A1F240F563300E6657F /* LogViewController.m in Sources */,
+				45E38446240CE0EF00C726DB /* ViewController.m in Sources */,
+				45E38440240CE0EF00C726DB /* AppDelegate.m in Sources */,
+				45E38476240CE9B000C726DB /* NSMutableDictionary+XMSafe.m in Sources */,
+				45E38451240CE0F000C726DB /* main.m in Sources */,
+				45E38470240CE68200C726DB /* XmVpnManagerModel.m in Sources */,
+				45E38473240CE69800C726DB /* XmVpnManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E38457240CE12F00C726DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E38461240CE12F00C726DB /* PacketTunnelProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45E38464240CE12F00C726DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45E3845A240CE12F00C726DB /* VPNTunnelDemo */;
+			targetProxy = 45E38463240CE12F00C726DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45E38447240CE0EF00C726DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E38448240CE0EF00C726DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45E3844C240CE0F000C726DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E3844D240CE0F000C726DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45E38452240CE0F000C726DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45E38453240CE0F000C726DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45E38455240CE0F000C726DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = 34.VPNDemo/34.VPNDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 力 张 (2ZGU9C7W66)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = R36CZ9CGE9;
+				INFOPLIST_FILE = 34.VPNDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.psk4h6snx9.ppx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Development_test.psk4h6snx9.ppx;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Debug;
+		};
+		45E38456240CE0F000C726DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = 34.VPNDemo/34.VPNDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 力 张 (2ZGU9C7W66)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = R36CZ9CGE9;
+				INFOPLIST_FILE = 34.VPNDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.psk4h6snx9.ppx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Development_test.psk4h6snx9.ppx;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Release;
+		};
+		45E38467240CE12F00C726DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = VPNTunnelDemo/VPNTunnelDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 力 张 (2ZGU9C7W66)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = R36CZ9CGE9;
+				INFOPLIST_FILE = VPNTunnelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.psk4h6snx9.ppx.tunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Development_test.psk4h6snx9.ppx.tunnel;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Debug;
+		};
+		45E38468240CE12F00C726DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = VPNTunnelDemo/VPNTunnelDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 力 张 (2ZGU9C7W66)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = R36CZ9CGE9;
+				INFOPLIST_FILE = VPNTunnelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.psk4h6snx9.ppx.tunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Development_test.psk4h6snx9.ppx.tunnel;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45E38436240CE0EF00C726DB /* Build configuration list for PBXProject "34.VPNDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E38452240CE0F000C726DB /* Debug */,
+				45E38453240CE0F000C726DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45E38454240CE0F000C726DB /* Build configuration list for PBXNativeTarget "34.VPNDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E38455240CE0F000C726DB /* Debug */,
+				45E38456240CE0F000C726DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45E38466240CE12F00C726DB /* Build configuration list for PBXNativeTarget "VPNTunnelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E38467240CE12F00C726DB /* Debug */,
+				45E38468240CE12F00C726DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45E38433240CE0EF00C726DB /* Project object */;
+}

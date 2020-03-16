@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "NSLockDemo.h"
 #import "MutiThreadUnsafeDemo.h"
-
+#import <SystemConfiguration/SystemConfiguration.h>
 
 @interface ViewController ()
 
@@ -22,8 +22,7 @@
     
     
     
-
-    
+//       SCPreferencesCreateWithAuthorization
     
         //    [self CallNSlock];
         //    [self CallConditionLock];

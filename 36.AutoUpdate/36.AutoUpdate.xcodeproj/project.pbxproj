@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45D20D582411293300FC72D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D20D572411293300FC72D1 /* AppDelegate.m */; };
+		45D20D5B2411293300FC72D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D20D5A2411293300FC72D1 /* ViewController.m */; };
+		45D20D5D2411293400FC72D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45D20D5C2411293400FC72D1 /* Assets.xcassets */; };
+		45D20D602411293400FC72D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D20D5E2411293400FC72D1 /* Main.storyboard */; };
+		45D20D632411293400FC72D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D20D622411293400FC72D1 /* main.m */; };
+		45D20D7024112C4900FC72D1 /* JRUpdateDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D20D6F24112C4900FC72D1 /* JRUpdateDownload.m */; };
+		45D20D742411F81500FC72D1 /* JRLocalCacheDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D20D732411F81500FC72D1 /* JRLocalCacheDirectory.m */; };
+		45D20D772411FAF000FC72D1 /* JRApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D20D762411FAF000FC72D1 /* JRApplication.m */; };
+		45D20D7A2412293200FC72D1 /* JRUpdateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D20D792412293200FC72D1 /* JRUpdateHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45D20D532411293300FC72D1 /* 36.AutoUpdate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 36.AutoUpdate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D20D562411293300FC72D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45D20D572411293300FC72D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45D20D592411293300FC72D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45D20D5A2411293300FC72D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45D20D5C2411293400FC72D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45D20D5F2411293400FC72D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45D20D612411293400FC72D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45D20D622411293400FC72D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45D20D642411293400FC72D1 /* _6_AutoUpdate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _6_AutoUpdate.entitlements; sourceTree = "<group>"; };
+		45D20D6E24112C4900FC72D1 /* JRUpdateDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRUpdateDownload.h; sourceTree = "<group>"; };
+		45D20D6F24112C4900FC72D1 /* JRUpdateDownload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRUpdateDownload.m; sourceTree = "<group>"; };
+		45D20D7124112E8800FC72D1 /* JRUpdateDownloadProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRUpdateDownloadProtocol.h; sourceTree = "<group>"; };
+		45D20D722411F81500FC72D1 /* JRLocalCacheDirectory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRLocalCacheDirectory.h; sourceTree = "<group>"; };
+		45D20D732411F81500FC72D1 /* JRLocalCacheDirectory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRLocalCacheDirectory.m; sourceTree = "<group>"; };
+		45D20D752411FAF000FC72D1 /* JRApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRApplication.h; sourceTree = "<group>"; };
+		45D20D762411FAF000FC72D1 /* JRApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRApplication.m; sourceTree = "<group>"; };
+		45D20D782412293200FC72D1 /* JRUpdateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRUpdateHelper.h; sourceTree = "<group>"; };
+		45D20D792412293200FC72D1 /* JRUpdateHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRUpdateHelper.m; sourceTree = "<group>"; };
+		45D20D7B241234E400FC72D1 /* JRAutoUpdate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRAutoUpdate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45D20D502411293300FC72D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45D20D4A2411293300FC72D1 = {
+			isa = PBXGroup;
+			children = (
+				45D20D552411293300FC72D1 /* 36.AutoUpdate */,
+				45D20D542411293300FC72D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45D20D542411293300FC72D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45D20D532411293300FC72D1 /* 36.AutoUpdate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45D20D552411293300FC72D1 /* 36.AutoUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				45D20D6A24112A9E00FC72D1 /* JRAutoUpdate */,
+				45D20D562411293300FC72D1 /* AppDelegate.h */,
+				45D20D572411293300FC72D1 /* AppDelegate.m */,
+				45D20D592411293300FC72D1 /* ViewController.h */,
+				45D20D5A2411293300FC72D1 /* ViewController.m */,
+				45D20D5C2411293400FC72D1 /* Assets.xcassets */,
+				45D20D5E2411293400FC72D1 /* Main.storyboard */,
+				45D20D612411293400FC72D1 /* Info.plist */,
+				45D20D622411293400FC72D1 /* main.m */,
+				45D20D642411293400FC72D1 /* _6_AutoUpdate.entitlements */,
+			);
+			path = 36.AutoUpdate;
+			sourceTree = "<group>";
+		};
+		45D20D6A24112A9E00FC72D1 /* JRAutoUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				45D20D6E24112C4900FC72D1 /* JRUpdateDownload.h */,
+				45D20D6F24112C4900FC72D1 /* JRUpdateDownload.m */,
+				45D20D7124112E8800FC72D1 /* JRUpdateDownloadProtocol.h */,
+				45D20D722411F81500FC72D1 /* JRLocalCacheDirectory.h */,
+				45D20D732411F81500FC72D1 /* JRLocalCacheDirectory.m */,
+				45D20D752411FAF000FC72D1 /* JRApplication.h */,
+				45D20D762411FAF000FC72D1 /* JRApplication.m */,
+				45D20D782412293200FC72D1 /* JRUpdateHelper.h */,
+				45D20D792412293200FC72D1 /* JRUpdateHelper.m */,
+				45D20D7B241234E400FC72D1 /* JRAutoUpdate.h */,
+			);
+			path = JRAutoUpdate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45D20D522411293300FC72D1 /* 36.AutoUpdate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45D20D672411293400FC72D1 /* Build configuration list for PBXNativeTarget "36.AutoUpdate" */;
+			buildPhases = (
+				45D20D4F2411293300FC72D1 /* Sources */,
+				45D20D502411293300FC72D1 /* Frameworks */,
+				45D20D512411293300FC72D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 36.AutoUpdate;
+			productName = 36.AutoUpdate;
+			productReference = 45D20D532411293300FC72D1 /* 36.AutoUpdate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45D20D4B2411293300FC72D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = jackfrow;
+				TargetAttributes = {
+					45D20D522411293300FC72D1 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 45D20D4E2411293300FC72D1 /* Build configuration list for PBXProject "36.AutoUpdate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45D20D4A2411293300FC72D1;
+			productRefGroup = 45D20D542411293300FC72D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45D20D522411293300FC72D1 /* 36.AutoUpdate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45D20D512411293300FC72D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D20D5D2411293400FC72D1 /* Assets.xcassets in Resources */,
+				45D20D602411293400FC72D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45D20D4F2411293300FC72D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D20D742411F81500FC72D1 /* JRLocalCacheDirectory.m in Sources */,
+				45D20D5B2411293300FC72D1 /* ViewController.m in Sources */,
+				45D20D7A2412293200FC72D1 /* JRUpdateHelper.m in Sources */,
+				45D20D772411FAF000FC72D1 /* JRApplication.m in Sources */,
+				45D20D632411293400FC72D1 /* main.m in Sources */,
+				45D20D7024112C4900FC72D1 /* JRUpdateDownload.m in Sources */,
+				45D20D582411293300FC72D1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45D20D5E2411293400FC72D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45D20D5F2411293400FC72D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45D20D652411293400FC72D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		45D20D662411293400FC72D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		45D20D682411293400FC72D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = 36.AutoUpdate/_6_AutoUpdate.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R36CZ9CGE9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = 36.AutoUpdate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jackfrow.-6-AutoUpdate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		45D20D692411293400FC72D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = 36.AutoUpdate/_6_AutoUpdate.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R36CZ9CGE9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = 36.AutoUpdate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jackfrow.-6-AutoUpdate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45D20D4E2411293300FC72D1 /* Build configuration list for PBXProject "36.AutoUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D20D652411293400FC72D1 /* Debug */,
+				45D20D662411293400FC72D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45D20D672411293400FC72D1 /* Build configuration list for PBXNativeTarget "36.AutoUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D20D682411293400FC72D1 /* Debug */,
+				45D20D692411293400FC72D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45D20D4B2411293300FC72D1 /* Project object */;
+}
