@@ -1,0 +1,25 @@
+# platform :ios, '9.0'
+use_frameworks!
+
+def socket
+    pod 'CocoaAsyncSocket'
+end
+
+target '34.VPNDemo' do
+
+
+end
+
+target 'PacketProcess' do
+   socket
+end
+
+target 'PotatsoBase' do
+
+
+end
+
+target 'VPNTunnelDemo' do
+
+
+end

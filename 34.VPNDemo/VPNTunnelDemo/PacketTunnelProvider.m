@@ -7,10 +7,11 @@
 //
 
 #import "PacketTunnelProvider.h"
-//#import "PotatsoBase.h"
+#import "PotatsoBase.h"
 
 #include <netdb.h>
 #include <arpa/inet.h>
+#define REQUEST_CACHED @"requestsCached"    // Indicate that recent requests need update
 
 
 @interface PacketTunnelProvider ()
@@ -22,9 +23,10 @@
 
 - (void)startTunnelWithOptions:(NSDictionary *)options completionHandler:(void (^)(NSError *))completionHandler
 {
-//
-//        [self openLog];
+
+        [self openLog];
 	    NSLog(@"starting potatso tunnel...");
+        [self updateUserDefaults];
            
 }
 
@@ -49,15 +51,20 @@
 
 
 #pragma mark - Util
-//-(void)openLog{
-//    
-//    NSString* logFilePath = [Potatso sharedLogUrl].path;
-//    [[NSFileManager defaultManager] createFileAtPath:logFilePath contents:nil attributes:nil];
-//    freopen([logFilePath cStringUsingEncoding:NSASCIIStringEncoding], "w+", stdout);
-//    freopen([logFilePath cStringUsingEncoding:NSASCIIStringEncoding], "w+", stderr);
-//    
-//}
 
-//-(void)
+-(void)openLog{
+    
+    NSString* logFilePath = [Potatso sharedLogUrl].path;
+    [[NSFileManager defaultManager] createFileAtPath:logFilePath contents:nil attributes:nil];
+    freopen([logFilePath cStringUsingEncoding:NSASCIIStringEncoding], "w+", stdout);
+    freopen([logFilePath cStringUsingEncoding:NSASCIIStringEncoding], "w+", stderr);
+    
+}
+
+- (void)updateUserDefaults {
+    [[Potatso sharedUserDefaults] removeObjectForKey:REQUEST_CACHED];
+    [[Potatso sharedUserDefaults] synchronize];
+    [[Settings shared] setStartTime:[NSDate date]];
+}
 
 @end

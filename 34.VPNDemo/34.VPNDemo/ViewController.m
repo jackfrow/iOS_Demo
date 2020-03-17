@@ -10,7 +10,7 @@
 #import "XmVpnManager.h"
 #import "XmVpnManagerModel.h"
 #import <NetworkExtension/NetworkExtension.h>
-//#import "LogViewController.h"
+#import "LogViewController.h"
 
 @interface ViewController ()<XDXVPNManagerDelegate>
 
@@ -58,8 +58,8 @@
 
 - (IBAction)showLog:(id)sender {
     
-//    LogViewController* vc = [[LogViewController alloc] init];
-//    [self.navigationController pushViewController:vc animated:true];
+    LogViewController* vc = [[LogViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:true];
     
     
 }
