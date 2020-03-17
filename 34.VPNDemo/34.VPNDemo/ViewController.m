@@ -66,6 +66,8 @@
 
 #pragma mark - Notification
 - (void)vpnDidChange:(NSNotification *)notification {
+
+    
     OSStatus status = self.vpnManager.vpnManager.connection.status;
 
     switch (status) {

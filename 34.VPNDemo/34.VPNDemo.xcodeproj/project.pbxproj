@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CDF73127793B9171E73A098 /* Pods_PacketProcess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0877ECA1ED1315F7DEA628D9 /* Pods_PacketProcess.framework */; };
 		451AAB5B2420B75C00E112B9 /* PacketProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 451AAB592420B75C00E112B9 /* PacketProcess.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		451AAB5E2420B75C00E112B9 /* PacketProcess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451AAB572420B75C00E112B9 /* PacketProcess.framework */; };
 		451AAB5F2420B75C00E112B9 /* PacketProcess.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 451AAB572420B75C00E112B9 /* PacketProcess.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -17,8 +18,25 @@
 		451AAB7B2420B81F00E112B9 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 451AAB772420B81E00E112B9 /* Settings.m */; };
 		451AAB7C2420B84100E112B9 /* Potatso.h in Headers */ = {isa = PBXBuildFile; fileRef = 451AAB752420B81E00E112B9 /* Potatso.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		451AAB7D2420B84900E112B9 /* Settings.h in Headers */ = {isa = PBXBuildFile; fileRef = 451AAB742420B81E00E112B9 /* Settings.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		451AAB802420B99500E112B9 /* TunnelInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 451AAB7E2420B99500E112B9 /* TunnelInterface.h */; };
 		451AAB812420B99500E112B9 /* TunnelInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 451AAB7F2420B99500E112B9 /* TunnelInterface.m */; };
+		451AAB822420C7CD00E112B9 /* TunnelInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 451AAB7E2420B99500E112B9 /* TunnelInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		451AAB832420C81C00E112B9 /* PacketProcess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451AAB572420B75C00E112B9 /* PacketProcess.framework */; };
+		451AAB842420C81C00E112B9 /* PacketProcess.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 451AAB572420B75C00E112B9 /* PacketProcess.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		451AAB872420C81C00E112B9 /* PotatsoBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451AAB682420B7A500E112B9 /* PotatsoBase.framework */; };
+		451AAB882420C81C00E112B9 /* PotatsoBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 451AAB682420B7A500E112B9 /* PotatsoBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		451AAB8E2420DBA200E112B9 /* TunnelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 451AAB8D2420DBA200E112B9 /* TunnelError.m */; };
+		451AAB912420DC5700E112B9 /* ProxyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 451AAB902420DC5700E112B9 /* ProxyManager.m */; };
+		451AAB952420E0E100E112B9 /* JSONUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 451AAB932420E0E100E112B9 /* JSONUtils.m */; };
+		451AAB962420E0F000E112B9 /* JSONUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 451AAB922420E0E100E112B9 /* JSONUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		451AABA02420E57100E112B9 /* ShadowPath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451AAB9D2420E4F300E112B9 /* ShadowPath.framework */; };
+		451AABA12420E57100E112B9 /* ShadowPath.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 451AAB9D2420E4F300E112B9 /* ShadowPath.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		451AABAB2420F40600E112B9 /* PotatsoLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 451AABA92420F40600E112B9 /* PotatsoLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		451AABAE2420F40600E112B9 /* PotatsoLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451AABA72420F40600E112B9 /* PotatsoLibrary.framework */; };
+		451AABAF2420F40600E112B9 /* PotatsoLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 451AABA72420F40600E112B9 /* PotatsoLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		451AABB62420F47400E112B9 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 451AABB42420F47400E112B9 /* Manager.m */; };
+		451AABB72420F49600E112B9 /* Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 451AABB32420F47400E112B9 /* Manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		451AABB82420F4B200E112B9 /* PotatsoLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451AABA72420F40600E112B9 /* PotatsoLibrary.framework */; };
+		451AABB92420F4B200E112B9 /* PotatsoLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 451AABA72420F40600E112B9 /* PotatsoLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		45DE2A1F240F563300E6657F /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE2A1E240F563300E6657F /* LogViewController.m */; };
 		45E38440240CE0EF00C726DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E3843F240CE0EF00C726DB /* AppDelegate.m */; };
 		45E38446240CE0EF00C726DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E38445240CE0EF00C726DB /* ViewController.m */; };
@@ -33,6 +51,10 @@
 		45E38473240CE69800C726DB /* XmVpnManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E38472240CE69800C726DB /* XmVpnManager.m */; };
 		45E38476240CE9B000C726DB /* NSMutableDictionary+XMSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E38475240CE9B000C726DB /* NSMutableDictionary+XMSafe.m */; };
 		45E38479240D0CDC00C726DB /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E3846B240CE4B300C726DB /* NetworkExtension.framework */; };
+		6B3E6F313D1BDC3F93E49403 /* Pods_PotatsoBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39D75218C8DDAFE98AB2B65 /* Pods_PotatsoBase.framework */; };
+		92FC4E9D63CC0F06B5F2F69C /* Pods_VPNTunnelDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DEDD20EA2E2431608E5B3D /* Pods_VPNTunnelDemo.framework */; };
+		F0D29BE77595CA5523200292 /* Pods_34_VPNDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29593E801EAC9ACBAD143F95 /* Pods_34_VPNDemo.framework */; };
+		F1B88F35FBDCB14B06791519 /* Pods_PotatsoLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6E460D88649619EBF0E918 /* Pods_PotatsoLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +72,48 @@
 			remoteGlobalIDString = 451AAB672420B7A500E112B9;
 			remoteInfo = PotatsoBase;
 		};
+		451AAB852420C81C00E112B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E38433240CE0EF00C726DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 451AAB562420B75C00E112B9;
+			remoteInfo = PacketProcess;
+		};
+		451AAB892420C81C00E112B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E38433240CE0EF00C726DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 451AAB672420B7A500E112B9;
+			remoteInfo = PotatsoBase;
+		};
+		451AAB9C2420E4F300E112B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 451AAB972420E4F300E112B9 /* ShadowPath.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B8DEFD7B1CE9C923003FC706;
+			remoteInfo = ShadowPath;
+		};
+		451AAB9E2420E4F300E112B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 451AAB972420E4F300E112B9 /* ShadowPath.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B82847B41CEB14B000820456;
+			remoteInfo = ShadowPathDemo;
+		};
+		451AABAC2420F40600E112B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E38433240CE0EF00C726DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 451AABA62420F40600E112B9;
+			remoteInfo = PotatsoLibrary;
+		};
+		451AABBA2420F4B300E112B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E38433240CE0EF00C726DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 451AABA62420F40600E112B9;
+			remoteInfo = PotatsoLibrary;
+		};
 		45E38463240CE12F00C726DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 45E38433240CE0EF00C726DB /* Project object */;
@@ -60,6 +124,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		451AAB8B2420C81C00E112B9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				451AABA12420E57100E112B9 /* ShadowPath.framework in Embed Frameworks */,
+				451AAB882420C81C00E112B9 /* PotatsoBase.framework in Embed Frameworks */,
+				451AAB842420C81C00E112B9 /* PacketProcess.framework in Embed Frameworks */,
+				451AABB92420F4B200E112B9 /* PotatsoLibrary.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4557C229241F701E0009B27D /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,6 +146,7 @@
 			files = (
 				451AAB702420B7A500E112B9 /* PotatsoBase.framework in Embed Frameworks */,
 				451AAB5F2420B75C00E112B9 /* PacketProcess.framework in Embed Frameworks */,
+				451AABAF2420F40600E112B9 /* PotatsoLibrary.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +165,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0877ECA1ED1315F7DEA628D9 /* Pods_PacketProcess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PacketProcess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		128319E3E6240BE94162384B /* Pods-34.VPNDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-34.VPNDemo.debug.xcconfig"; path = "Target Support Files/Pods-34.VPNDemo/Pods-34.VPNDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		273F2C9BD2965825885AA567 /* Pods-VPNTunnelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPNTunnelDemo.debug.xcconfig"; path = "Target Support Files/Pods-VPNTunnelDemo/Pods-VPNTunnelDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		29593E801EAC9ACBAD143F95 /* Pods_34_VPNDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_34_VPNDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41462C098AE31967F2F8833E /* Pods-PotatsoLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PotatsoLibrary.release.xcconfig"; path = "Target Support Files/Pods-PotatsoLibrary/Pods-PotatsoLibrary.release.xcconfig"; sourceTree = "<group>"; };
+		41DEDD20EA2E2431608E5B3D /* Pods_VPNTunnelDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPNTunnelDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		451AAB572420B75C00E112B9 /* PacketProcess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PacketProcess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		451AAB592420B75C00E112B9 /* PacketProcess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketProcess.h; sourceTree = "<group>"; };
 		451AAB5A2420B75C00E112B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,6 +183,18 @@
 		451AAB772420B81E00E112B9 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 		451AAB7E2420B99500E112B9 /* TunnelInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TunnelInterface.h; sourceTree = "<group>"; };
 		451AAB7F2420B99500E112B9 /* TunnelInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TunnelInterface.m; sourceTree = "<group>"; };
+		451AAB8C2420DBA200E112B9 /* TunnelError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TunnelError.h; sourceTree = "<group>"; };
+		451AAB8D2420DBA200E112B9 /* TunnelError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TunnelError.m; sourceTree = "<group>"; };
+		451AAB8F2420DC5700E112B9 /* ProxyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProxyManager.h; sourceTree = "<group>"; };
+		451AAB902420DC5700E112B9 /* ProxyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyManager.m; sourceTree = "<group>"; };
+		451AAB922420E0E100E112B9 /* JSONUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONUtils.h; sourceTree = "<group>"; };
+		451AAB932420E0E100E112B9 /* JSONUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONUtils.m; sourceTree = "<group>"; };
+		451AAB972420E4F300E112B9 /* ShadowPath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ShadowPath.xcodeproj; path = Library/ShadowPath/ShadowPath.xcodeproj; sourceTree = SOURCE_ROOT; };
+		451AABA72420F40600E112B9 /* PotatsoLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PotatsoLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		451AABA92420F40600E112B9 /* PotatsoLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PotatsoLibrary.h; sourceTree = "<group>"; };
+		451AABAA2420F40600E112B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451AABB32420F47400E112B9 /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		451AABB42420F47400E112B9 /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
 		45DE2A1D240F563300E6657F /* LogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
 		45DE2A1E240F563300E6657F /* LogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
 		45E3843B240CE0EF00C726DB /* 34.VPNDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 34.VPNDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +219,15 @@
 		45E38474240CE9B000C726DB /* NSMutableDictionary+XMSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+XMSafe.h"; sourceTree = "<group>"; };
 		45E38475240CE9B000C726DB /* NSMutableDictionary+XMSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+XMSafe.m"; sourceTree = "<group>"; };
 		45E38478240D0CDC00C726DB /* 34.VPNDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 34.VPNDemo.entitlements; sourceTree = "<group>"; };
+		48F50CDAAF6C05F817BA6C87 /* Pods-34.VPNDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-34.VPNDemo.release.xcconfig"; path = "Target Support Files/Pods-34.VPNDemo/Pods-34.VPNDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5B4F0BAF4AEF61CD74556BE2 /* Pods-PacketProcess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacketProcess.debug.xcconfig"; path = "Target Support Files/Pods-PacketProcess/Pods-PacketProcess.debug.xcconfig"; sourceTree = "<group>"; };
+		5D6E460D88649619EBF0E918 /* Pods_PotatsoLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PotatsoLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F353BDE15CFC363B85310DD /* Pods-PotatsoLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PotatsoLibrary.debug.xcconfig"; path = "Target Support Files/Pods-PotatsoLibrary/Pods-PotatsoLibrary.debug.xcconfig"; sourceTree = "<group>"; };
+		C437DB292BBB538E5325B3AF /* Pods-PacketProcess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacketProcess.release.xcconfig"; path = "Target Support Files/Pods-PacketProcess/Pods-PacketProcess.release.xcconfig"; sourceTree = "<group>"; };
+		D64619B9F42527C624C44534 /* Pods-PotatsoBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PotatsoBase.debug.xcconfig"; path = "Target Support Files/Pods-PotatsoBase/Pods-PotatsoBase.debug.xcconfig"; sourceTree = "<group>"; };
+		F067A65C592BEB025D9E1528 /* Pods-VPNTunnelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPNTunnelDemo.release.xcconfig"; path = "Target Support Files/Pods-VPNTunnelDemo/Pods-VPNTunnelDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F39D75218C8DDAFE98AB2B65 /* Pods_PotatsoBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PotatsoBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF470C4A69ED2CBCDD2BA9E3 /* Pods-PotatsoBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PotatsoBase.release.xcconfig"; path = "Target Support Files/Pods-PotatsoBase/Pods-PotatsoBase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +235,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CDF73127793B9171E73A098 /* Pods_PacketProcess.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +243,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B3E6F313D1BDC3F93E49403 /* Pods_PotatsoBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451AABA42420F40600E112B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B88F35FBDCB14B06791519 /* Pods_PotatsoLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,9 +259,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451AABAE2420F40600E112B9 /* PotatsoLibrary.framework in Frameworks */,
 				451AAB5E2420B75C00E112B9 /* PacketProcess.framework in Frameworks */,
 				45E38479240D0CDC00C726DB /* NetworkExtension.framework in Frameworks */,
 				451AAB6F2420B7A500E112B9 /* PotatsoBase.framework in Frameworks */,
+				F0D29BE77595CA5523200292 /* Pods_34_VPNDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				45E3846C240CE4B300C726DB /* NetworkExtension.framework in Frameworks */,
+				451AAB832420C81C00E112B9 /* PacketProcess.framework in Frameworks */,
+				451AAB872420C81C00E112B9 /* PotatsoBase.framework in Frameworks */,
+				451AABA02420E57100E112B9 /* ShadowPath.framework in Frameworks */,
+				92FC4E9D63CC0F06B5F2F69C /* Pods_VPNTunnelDemo.framework in Frameworks */,
+				451AABB82420F4B200E112B9 /* PotatsoLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +297,8 @@
 		451AAB692420B7A500E112B9 /* PotatsoBase */ = {
 			isa = PBXGroup;
 			children = (
+				451AAB922420E0E100E112B9 /* JSONUtils.h */,
+				451AAB932420E0E100E112B9 /* JSONUtils.m */,
 				451AAB752420B81E00E112B9 /* Potatso.h */,
 				451AAB762420B81E00E112B9 /* Potatso.m */,
 				451AAB742420B81E00E112B9 /* Settings.h */,
@@ -184,6 +309,26 @@
 			path = PotatsoBase;
 			sourceTree = "<group>";
 		};
+		451AAB982420E4F300E112B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				451AAB9D2420E4F300E112B9 /* ShadowPath.framework */,
+				451AAB9F2420E4F300E112B9 /* ShadowPathDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		451AABA82420F40600E112B9 /* PotatsoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				451AABA92420F40600E112B9 /* PotatsoLibrary.h */,
+				451AABAA2420F40600E112B9 /* Info.plist */,
+				451AABB32420F47400E112B9 /* Manager.h */,
+				451AABB42420F47400E112B9 /* Manager.m */,
+			);
+			path = PotatsoLibrary;
+			sourceTree = "<group>";
+		};
 		45E38432240CE0EF00C726DB = {
 			isa = PBXGroup;
 			children = (
@@ -191,8 +336,10 @@
 				45E3845C240CE12F00C726DB /* VPNTunnelDemo */,
 				451AAB582420B75C00E112B9 /* PacketProcess */,
 				451AAB692420B7A500E112B9 /* PotatsoBase */,
+				451AABA82420F40600E112B9 /* PotatsoLibrary */,
 				45E3843C240CE0EF00C726DB /* Products */,
 				45E3846A240CE4B300C726DB /* Frameworks */,
+				6A913D184806FA9C476339E5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,6 +350,7 @@
 				45E3845B240CE12F00C726DB /* VPNTunnelDemo.appex */,
 				451AAB572420B75C00E112B9 /* PacketProcess.framework */,
 				451AAB682420B7A500E112B9 /* PotatsoBase.framework */,
+				451AABA72420F40600E112B9 /* PotatsoLibrary.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -232,6 +380,11 @@
 		45E3845C240CE12F00C726DB /* VPNTunnelDemo */ = {
 			isa = PBXGroup;
 			children = (
+				451AAB972420E4F300E112B9 /* ShadowPath.xcodeproj */,
+				451AAB8F2420DC5700E112B9 /* ProxyManager.h */,
+				451AAB902420DC5700E112B9 /* ProxyManager.m */,
+				451AAB8D2420DBA200E112B9 /* TunnelError.m */,
+				451AAB8C2420DBA200E112B9 /* TunnelError.h */,
 				45E3845F240CE12F00C726DB /* PacketTunnelProvider.h */,
 				45E38460240CE12F00C726DB /* PacketTunnelProvider.m */,
 				45E38462240CE12F00C726DB /* Info.plist */,
@@ -251,6 +404,11 @@
 			isa = PBXGroup;
 			children = (
 				45E3846B240CE4B300C726DB /* NetworkExtension.framework */,
+				29593E801EAC9ACBAD143F95 /* Pods_34_VPNDemo.framework */,
+				0877ECA1ED1315F7DEA628D9 /* Pods_PacketProcess.framework */,
+				F39D75218C8DDAFE98AB2B65 /* Pods_PotatsoBase.framework */,
+				41DEDD20EA2E2431608E5B3D /* Pods_VPNTunnelDemo.framework */,
+				5D6E460D88649619EBF0E918 /* Pods_PotatsoLibrary.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -266,6 +424,23 @@
 			path = XmVpnManager;
 			sourceTree = "<group>";
 		};
+		6A913D184806FA9C476339E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				128319E3E6240BE94162384B /* Pods-34.VPNDemo.debug.xcconfig */,
+				48F50CDAAF6C05F817BA6C87 /* Pods-34.VPNDemo.release.xcconfig */,
+				5B4F0BAF4AEF61CD74556BE2 /* Pods-PacketProcess.debug.xcconfig */,
+				C437DB292BBB538E5325B3AF /* Pods-PacketProcess.release.xcconfig */,
+				D64619B9F42527C624C44534 /* Pods-PotatsoBase.debug.xcconfig */,
+				FF470C4A69ED2CBCDD2BA9E3 /* Pods-PotatsoBase.release.xcconfig */,
+				273F2C9BD2965825885AA567 /* Pods-VPNTunnelDemo.debug.xcconfig */,
+				F067A65C592BEB025D9E1528 /* Pods-VPNTunnelDemo.release.xcconfig */,
+				7F353BDE15CFC363B85310DD /* Pods-PotatsoLibrary.debug.xcconfig */,
+				41462C098AE31967F2F8833E /* Pods-PotatsoLibrary.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -273,8 +448,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				451AAB802420B99500E112B9 /* TunnelInterface.h in Headers */,
 				451AAB5B2420B75C00E112B9 /* PacketProcess.h in Headers */,
+				451AAB822420C7CD00E112B9 /* TunnelInterface.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +459,17 @@
 			files = (
 				451AAB6C2420B7A500E112B9 /* PotatsoBase.h in Headers */,
 				451AAB7C2420B84100E112B9 /* Potatso.h in Headers */,
+				451AAB962420E0F000E112B9 /* JSONUtils.h in Headers */,
 				451AAB7D2420B84900E112B9 /* Settings.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451AABA22420F40600E112B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451AABB72420F49600E112B9 /* Manager.h in Headers */,
+				451AABAB2420F40600E112B9 /* PotatsoLibrary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +480,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 451AAB622420B75C00E112B9 /* Build configuration list for PBXNativeTarget "PacketProcess" */;
 			buildPhases = (
+				3B39031A519E566BECE4160B /* [CP] Check Pods Manifest.lock */,
 				451AAB522420B75C00E112B9 /* Headers */,
 				451AAB532420B75C00E112B9 /* Sources */,
 				451AAB542420B75C00E112B9 /* Frameworks */,
@@ -313,6 +499,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 451AAB712420B7A500E112B9 /* Build configuration list for PBXNativeTarget "PotatsoBase" */;
 			buildPhases = (
+				79EEFFFAE70167BC2BD4CF3E /* [CP] Check Pods Manifest.lock */,
 				451AAB632420B7A500E112B9 /* Headers */,
 				451AAB642420B7A500E112B9 /* Sources */,
 				451AAB652420B7A500E112B9 /* Frameworks */,
@@ -327,15 +514,36 @@
 			productReference = 451AAB682420B7A500E112B9 /* PotatsoBase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		451AABA62420F40600E112B9 /* PotatsoLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451AABB02420F40600E112B9 /* Build configuration list for PBXNativeTarget "PotatsoLibrary" */;
+			buildPhases = (
+				8C7F3D2D928BD6E4B2105F40 /* [CP] Check Pods Manifest.lock */,
+				451AABA22420F40600E112B9 /* Headers */,
+				451AABA32420F40600E112B9 /* Sources */,
+				451AABA42420F40600E112B9 /* Frameworks */,
+				451AABA52420F40600E112B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PotatsoLibrary;
+			productName = PotatsoLibrary;
+			productReference = 451AABA72420F40600E112B9 /* PotatsoLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		45E3843A240CE0EF00C726DB /* 34.VPNDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45E38454240CE0F000C726DB /* Build configuration list for PBXNativeTarget "34.VPNDemo" */;
 			buildPhases = (
+				0B432FAAF014888E683CA2FB /* [CP] Check Pods Manifest.lock */,
 				45E38437240CE0EF00C726DB /* Sources */,
 				45E38438240CE0EF00C726DB /* Frameworks */,
 				45E38439240CE0EF00C726DB /* Resources */,
 				45E38469240CE12F00C726DB /* Embed App Extensions */,
 				4557C229241F701E0009B27D /* Embed Frameworks */,
+				70FF0C7014C469EAB0D49BC8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -343,6 +551,7 @@
 				45E38464240CE12F00C726DB /* PBXTargetDependency */,
 				451AAB5D2420B75C00E112B9 /* PBXTargetDependency */,
 				451AAB6E2420B7A500E112B9 /* PBXTargetDependency */,
+				451AABAD2420F40600E112B9 /* PBXTargetDependency */,
 			);
 			name = 34.VPNDemo;
 			productName = 34.VPNDemo;
@@ -353,13 +562,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45E38466240CE12F00C726DB /* Build configuration list for PBXNativeTarget "VPNTunnelDemo" */;
 			buildPhases = (
+				17FE2508FFF2C39FAD4D937F /* [CP] Check Pods Manifest.lock */,
 				45E38457240CE12F00C726DB /* Sources */,
 				45E38458240CE12F00C726DB /* Frameworks */,
 				45E38459240CE12F00C726DB /* Resources */,
+				451AAB8B2420C81C00E112B9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				451AAB862420C81C00E112B9 /* PBXTargetDependency */,
+				451AAB8A2420C81C00E112B9 /* PBXTargetDependency */,
+				451AABBB2420F4B300E112B9 /* PBXTargetDependency */,
 			);
 			name = VPNTunnelDemo;
 			productName = VPNTunnelDemo;
@@ -381,6 +595,9 @@
 					451AAB672420B7A500E112B9 = {
 						CreatedOnToolsVersion = 11.0;
 					};
+					451AABA62420F40600E112B9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
 					45E3843A240CE0EF00C726DB = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -400,15 +617,39 @@
 			mainGroup = 45E38432240CE0EF00C726DB;
 			productRefGroup = 45E3843C240CE0EF00C726DB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 451AAB982420E4F300E112B9 /* Products */;
+					ProjectRef = 451AAB972420E4F300E112B9 /* ShadowPath.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				45E3843A240CE0EF00C726DB /* 34.VPNDemo */,
 				45E3845A240CE12F00C726DB /* VPNTunnelDemo */,
 				451AAB562420B75C00E112B9 /* PacketProcess */,
 				451AAB672420B7A500E112B9 /* PotatsoBase */,
+				451AABA62420F40600E112B9 /* PotatsoLibrary */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		451AAB9D2420E4F300E112B9 /* ShadowPath.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ShadowPath.framework;
+			remoteRef = 451AAB9C2420E4F300E112B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		451AAB9F2420E4F300E112B9 /* ShadowPathDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ShadowPathDemo.app;
+			remoteRef = 451AAB9E2420E4F300E112B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		451AAB552420B75C00E112B9 /* Resources */ = {
@@ -419,6 +660,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		451AAB662420B7A500E112B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451AABA52420F40600E112B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -444,6 +692,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B432FAAF014888E683CA2FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-34.VPNDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17FE2508FFF2C39FAD4D937F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VPNTunnelDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B39031A519E566BECE4160B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PacketProcess-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70FF0C7014C469EAB0D49BC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-34.VPNDemo/Pods-34.VPNDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-34.VPNDemo/Pods-34.VPNDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-34.VPNDemo/Pods-34.VPNDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79EEFFFAE70167BC2BD4CF3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PotatsoBase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C7F3D2D928BD6E4B2105F40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PotatsoLibrary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		451AAB532420B75C00E112B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -457,8 +835,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451AAB952420E0E100E112B9 /* JSONUtils.m in Sources */,
 				451AAB7B2420B81F00E112B9 /* Settings.m in Sources */,
 				451AAB7A2420B81F00E112B9 /* Potatso.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451AABA32420F40600E112B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451AABB62420F47400E112B9 /* Manager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +867,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451AAB8E2420DBA200E112B9 /* TunnelError.m in Sources */,
+				451AAB912420DC5700E112B9 /* ProxyManager.m in Sources */,
 				45E38461240CE12F00C726DB /* PacketTunnelProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +885,26 @@
 			isa = PBXTargetDependency;
 			target = 451AAB672420B7A500E112B9 /* PotatsoBase */;
 			targetProxy = 451AAB6D2420B7A500E112B9 /* PBXContainerItemProxy */;
+		};
+		451AAB862420C81C00E112B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 451AAB562420B75C00E112B9 /* PacketProcess */;
+			targetProxy = 451AAB852420C81C00E112B9 /* PBXContainerItemProxy */;
+		};
+		451AAB8A2420C81C00E112B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 451AAB672420B7A500E112B9 /* PotatsoBase */;
+			targetProxy = 451AAB892420C81C00E112B9 /* PBXContainerItemProxy */;
+		};
+		451AABAD2420F40600E112B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 451AABA62420F40600E112B9 /* PotatsoLibrary */;
+			targetProxy = 451AABAC2420F40600E112B9 /* PBXContainerItemProxy */;
+		};
+		451AABBB2420F4B300E112B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 451AABA62420F40600E112B9 /* PotatsoLibrary */;
+			targetProxy = 451AABBA2420F4B300E112B9 /* PBXContainerItemProxy */;
 		};
 		45E38464240CE12F00C726DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -526,8 +935,9 @@
 /* Begin XCBuildConfiguration section */
 		451AAB602420B75C00E112B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4F0BAF4AEF61CD74556BE2 /* Pods-PacketProcess.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -537,7 +947,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PacketProcess/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -556,8 +966,9 @@
 		};
 		451AAB612420B75C00E112B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C437DB292BBB538E5325B3AF /* Pods-PacketProcess.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -567,7 +978,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PacketProcess/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -586,6 +997,7 @@
 		};
 		451AAB722420B7A500E112B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64619B9F42527C624C44534 /* Pods-PotatsoBase.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
@@ -597,7 +1009,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PotatsoBase/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -616,6 +1028,7 @@
 		};
 		451AAB732420B7A500E112B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF470C4A69ED2CBCDD2BA9E3 /* Pods-PotatsoBase.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
@@ -627,7 +1040,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PotatsoBase/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -638,6 +1051,68 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		451AABB12420F40600E112B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F353BDE15CFC363B85310DD /* Pods-PotatsoLibrary.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R36CZ9CGE9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PotatsoLibrary/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.psk4h6snx9.ppx.packetProcess.PotatsoLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		451AABB22420F40600E112B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41462C098AE31967F2F8833E /* Pods-PotatsoLibrary.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R36CZ9CGE9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PotatsoLibrary/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.psk4h6snx9.ppx.packetProcess.PotatsoLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -756,6 +1231,7 @@
 		};
 		45E38455240CE0F000C726DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 128319E3E6240BE94162384B /* Pods-34.VPNDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = 34.VPNDemo/34.VPNDemo.entitlements;
@@ -772,12 +1248,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = Development_test.psk4h6snx9.ppx;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64 arm64e";
+				VALID_ARCHS = "arm64 arm64e armv7s armv7";
 			};
 			name = Debug;
 		};
 		45E38456240CE0F000C726DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F50CDAAF6C05F817BA6C87 /* Pods-34.VPNDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = 34.VPNDemo/34.VPNDemo.entitlements;
@@ -794,12 +1271,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = Development_test.psk4h6snx9.ppx;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64 arm64e";
+				VALID_ARCHS = "arm64 arm64e armv7s armv7";
 			};
 			name = Release;
 		};
 		45E38467240CE12F00C726DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273F2C9BD2965825885AA567 /* Pods-VPNTunnelDemo.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = VPNTunnelDemo/VPNTunnelDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: 力 张 (2ZGU9C7W66)";
@@ -817,12 +1295,13 @@
 				PROVISIONING_PROFILE_SPECIFIER = Development_test.psk4h6snx9.ppx.tunnel;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64 arm64e";
+				VALID_ARCHS = "arm64 arm64e armv7s armv7";
 			};
 			name = Debug;
 		};
 		45E38468240CE12F00C726DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F067A65C592BEB025D9E1528 /* Pods-VPNTunnelDemo.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = VPNTunnelDemo/VPNTunnelDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: 力 张 (2ZGU9C7W66)";
@@ -840,7 +1319,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = Development_test.psk4h6snx9.ppx.tunnel;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64 arm64e";
+				VALID_ARCHS = "arm64 arm64e armv7s armv7";
 			};
 			name = Release;
 		};
@@ -861,6 +1340,15 @@
 			buildConfigurations = (
 				451AAB722420B7A500E112B9 /* Debug */,
 				451AAB732420B7A500E112B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451AABB02420F40600E112B9 /* Build configuration list for PBXNativeTarget "PotatsoLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451AABB12420F40600E112B9 /* Debug */,
+				451AABB22420F40600E112B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

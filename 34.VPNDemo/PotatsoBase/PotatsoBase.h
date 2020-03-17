@@ -19,3 +19,4 @@ FOUNDATION_EXPORT const unsigned char PotatsoBaseVersionString[];
 
 #import "Potatso.h"
 #import "Settings.h"
+#import "JSONUtils.h"

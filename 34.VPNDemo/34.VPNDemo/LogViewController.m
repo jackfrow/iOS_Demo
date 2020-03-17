@@ -84,14 +84,11 @@
 
                   });
                   
-                  
                   self.data = [[NSMutableData alloc] init];
               }
               
                 free(buffer);
                 
-                //读取完毕后
-    //            dispatch_source_cancel(readSource);
             }
     
     

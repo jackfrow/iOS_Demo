@@ -1,13 +1,16 @@
 # platform :ios, '9.0'
 use_frameworks!
 
+def library
+    pod 'KissXML'
+end
+
 def socket
     pod 'CocoaAsyncSocket'
 end
 
 target '34.VPNDemo' do
-
-
+socket
 end
 
 target 'PacketProcess' do
@@ -15,11 +18,13 @@ target 'PacketProcess' do
 end
 
 target 'PotatsoBase' do
-
-
+socket
 end
 
 target 'VPNTunnelDemo' do
+socket
+end
 
-
+target "PotatsoLibrary" do
+    library
 end
