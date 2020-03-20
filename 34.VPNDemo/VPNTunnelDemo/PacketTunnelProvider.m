@@ -39,7 +39,7 @@
     }
     
     self.pendingStartCompletion = completionHandler;
-    [self startProxies];
+//    [self startProxies];
     
            
 }

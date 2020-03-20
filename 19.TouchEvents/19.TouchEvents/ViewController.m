@@ -24,6 +24,8 @@ NSString* const control = @"控件";
 - (void)viewDidLoad {
     [super viewDidLoad];
    
+    NSLog(@"callStackSymbols = %@",[NSThread callStackSymbols]);
+    
 }
 
 
