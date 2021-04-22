@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45F7C1D623FA723400B070B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F7C1D523FA723400B070B0 /* AppDelegate.m */; };
-		45F7C1D923FA723400B070B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F7C1D823FA723400B070B0 /* ViewController.m */; };
-		45F7C1DB23FA723600B070B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F7C1DA23FA723600B070B0 /* Assets.xcassets */; };
-		45F7C1DE23FA723600B070B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F7C1DC23FA723600B070B0 /* Main.storyboard */; };
-		45F7C1E123FA723600B070B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F7C1E023FA723600B070B0 /* main.m */; };
-		45F7C1F023FAB7A300B070B0 /* ConnectWaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F7C1EE23FAB7A300B070B0 /* ConnectWaveLayer.m */; };
+		4599FCC522CF35CD001D54C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4599FCC422CF35CD001D54C7 /* AppDelegate.swift */; };
+		4599FCC722CF35CD001D54C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4599FCC622CF35CD001D54C7 /* ViewController.swift */; };
+		4599FCCA22CF35CD001D54C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4599FCC822CF35CD001D54C7 /* Main.storyboard */; };
+		4599FCCC22CF35D3001D54C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4599FCCB22CF35D3001D54C7 /* Assets.xcassets */; };
+		4599FCCF22CF35D3001D54C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4599FCCD22CF35D3001D54C7 /* LaunchScreen.storyboard */; };
+		4599FCD722CF35EB001D54C7 /* ZZWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4599FCD622CF35EB001D54C7 /* ZZWaveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		45F7C1D123FA723400B070B0 /* TestLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		45F7C1D423FA723400B070B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		45F7C1D523FA723400B070B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		45F7C1D723FA723400B070B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		45F7C1D823FA723400B070B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		45F7C1DA23FA723600B070B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		45F7C1DD23FA723600B070B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		45F7C1DF23FA723600B070B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45F7C1E023FA723600B070B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		45F7C1E223FA723600B070B0 /* TestLine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestLine.entitlements; sourceTree = "<group>"; };
-		45F7C1EE23FAB7A300B070B0 /* ConnectWaveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectWaveLayer.m; sourceTree = "<group>"; };
-		45F7C1EF23FAB7A300B070B0 /* ConnectWaveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectWaveLayer.h; sourceTree = "<group>"; };
+		4599FCC122CF35CD001D54C7 /* ZZWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4599FCC422CF35CD001D54C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4599FCC622CF35CD001D54C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4599FCC922CF35CD001D54C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4599FCCB22CF35D3001D54C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4599FCCE22CF35D3001D54C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4599FCD022CF35D3001D54C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4599FCD622CF35EB001D54C7 /* ZZWaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZWaveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		45F7C1CE23FA723400B070B0 /* Frameworks */ = {
+		4599FCBE22CF35CD001D54C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,75 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		45F7C1C823FA723400B070B0 = {
+		4599FCB822CF35CD001D54C7 = {
 			isa = PBXGroup;
 			children = (
-				45F7C1D323FA723400B070B0 /* TestLine */,
-				45F7C1D223FA723400B070B0 /* Products */,
+				4599FCC322CF35CD001D54C7 /* ZZWave */,
+				4599FCC222CF35CD001D54C7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		45F7C1D223FA723400B070B0 /* Products */ = {
+		4599FCC222CF35CD001D54C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45F7C1D123FA723400B070B0 /* TestLine.app */,
+				4599FCC122CF35CD001D54C7 /* ZZWave.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		45F7C1D323FA723400B070B0 /* TestLine */ = {
+		4599FCC322CF35CD001D54C7 /* ZZWave */ = {
 			isa = PBXGroup;
 			children = (
-				45F7C1EF23FAB7A300B070B0 /* ConnectWaveLayer.h */,
-				45F7C1EE23FAB7A300B070B0 /* ConnectWaveLayer.m */,
-				45F7C1D423FA723400B070B0 /* AppDelegate.h */,
-				45F7C1D523FA723400B070B0 /* AppDelegate.m */,
-				45F7C1D723FA723400B070B0 /* ViewController.h */,
-				45F7C1D823FA723400B070B0 /* ViewController.m */,
-				45F7C1DA23FA723600B070B0 /* Assets.xcassets */,
-				45F7C1DC23FA723600B070B0 /* Main.storyboard */,
-				45F7C1DF23FA723600B070B0 /* Info.plist */,
-				45F7C1E023FA723600B070B0 /* main.m */,
-				45F7C1E223FA723600B070B0 /* TestLine.entitlements */,
+				4599FCD622CF35EB001D54C7 /* ZZWaveView.swift */,
+				4599FCC422CF35CD001D54C7 /* AppDelegate.swift */,
+				4599FCC622CF35CD001D54C7 /* ViewController.swift */,
+				4599FCC822CF35CD001D54C7 /* Main.storyboard */,
+				4599FCCB22CF35D3001D54C7 /* Assets.xcassets */,
+				4599FCCD22CF35D3001D54C7 /* LaunchScreen.storyboard */,
+				4599FCD022CF35D3001D54C7 /* Info.plist */,
 			);
-			path = TestLine;
+			path = ZZWave;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		45F7C1D023FA723400B070B0 /* TestLine */ = {
+		4599FCC022CF35CD001D54C7 /* ZZWave */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45F7C1E523FA723600B070B0 /* Build configuration list for PBXNativeTarget "TestLine" */;
+			buildConfigurationList = 4599FCD322CF35D3001D54C7 /* Build configuration list for PBXNativeTarget "ZZWave" */;
 			buildPhases = (
-				45F7C1CD23FA723400B070B0 /* Sources */,
-				45F7C1CE23FA723400B070B0 /* Frameworks */,
-				45F7C1CF23FA723400B070B0 /* Resources */,
+				4599FCBD22CF35CD001D54C7 /* Sources */,
+				4599FCBE22CF35CD001D54C7 /* Frameworks */,
+				4599FCBF22CF35CD001D54C7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TestLine;
-			productName = TestLine;
-			productReference = 45F7C1D123FA723400B070B0 /* TestLine.app */;
+			name = ZZWave;
+			productName = ZZWave;
+			productReference = 4599FCC122CF35CD001D54C7 /* ZZWave.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		45F7C1C923FA723400B070B0 /* Project object */ = {
+		4599FCB922CF35CD001D54C7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = jackfrow;
 				TargetAttributes = {
-					45F7C1D023FA723400B070B0 = {
-						CreatedOnToolsVersion = 11.0;
+					4599FCC022CF35CD001D54C7 = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 45F7C1CC23FA723400B070B0 /* Build configuration list for PBXProject "TestLine" */;
+			buildConfigurationList = 4599FCBC22CF35CD001D54C7 /* Build configuration list for PBXProject "ZZWave" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,55 +110,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 45F7C1C823FA723400B070B0;
-			productRefGroup = 45F7C1D223FA723400B070B0 /* Products */;
+			mainGroup = 4599FCB822CF35CD001D54C7;
+			productRefGroup = 4599FCC222CF35CD001D54C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45F7C1D023FA723400B070B0 /* TestLine */,
+				4599FCC022CF35CD001D54C7 /* ZZWave */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		45F7C1CF23FA723400B070B0 /* Resources */ = {
+		4599FCBF22CF35CD001D54C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F7C1DB23FA723600B070B0 /* Assets.xcassets in Resources */,
-				45F7C1DE23FA723600B070B0 /* Main.storyboard in Resources */,
+				4599FCCF22CF35D3001D54C7 /* LaunchScreen.storyboard in Resources */,
+				4599FCCC22CF35D3001D54C7 /* Assets.xcassets in Resources */,
+				4599FCCA22CF35CD001D54C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		45F7C1CD23FA723400B070B0 /* Sources */ = {
+		4599FCBD22CF35CD001D54C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F7C1D923FA723400B070B0 /* ViewController.m in Sources */,
-				45F7C1E123FA723600B070B0 /* main.m in Sources */,
-				45F7C1D623FA723400B070B0 /* AppDelegate.m in Sources */,
-				45F7C1F023FAB7A300B070B0 /* ConnectWaveLayer.m in Sources */,
+				4599FCC722CF35CD001D54C7 /* ViewController.swift in Sources */,
+				4599FCD722CF35EB001D54C7 /* ZZWaveView.swift in Sources */,
+				4599FCC522CF35CD001D54C7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		45F7C1DC23FA723600B070B0 /* Main.storyboard */ = {
+		4599FCC822CF35CD001D54C7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				45F7C1DD23FA723600B070B0 /* Base */,
+				4599FCC922CF35CD001D54C7 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4599FCCD22CF35D3001D54C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4599FCCE22CF35D3001D54C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		45F7C1E323FA723600B070B0 /* Debug */ = {
+		4599FCD122CF35D3001D54C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,6 +198,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -215,15 +217,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		45F7C1E423FA723600B070B0 /* Release */ = {
+		4599FCD222CF35D3001D54C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,6 +259,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -267,75 +272,74 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		45F7C1E623FA723600B070B0 /* Debug */ = {
+		4599FCD422CF35D3001D54C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = TestLine/TestLine.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = TestLine/Info.plist;
+				DEVELOPMENT_TEAM = BYVTZWD3CS;
+				INFOPLIST_FILE = ZZWave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = jackfrow.TestLine;
+				PRODUCT_BUNDLE_IDENTIFIER = jackfrow.ZZWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		45F7C1E723FA723600B070B0 /* Release */ = {
+		4599FCD522CF35D3001D54C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = TestLine/TestLine.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = TestLine/Info.plist;
+				DEVELOPMENT_TEAM = BYVTZWD3CS;
+				INFOPLIST_FILE = ZZWave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = jackfrow.TestLine;
+				PRODUCT_BUNDLE_IDENTIFIER = jackfrow.ZZWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		45F7C1CC23FA723400B070B0 /* Build configuration list for PBXProject "TestLine" */ = {
+		4599FCBC22CF35CD001D54C7 /* Build configuration list for PBXProject "ZZWave" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45F7C1E323FA723600B070B0 /* Debug */,
-				45F7C1E423FA723600B070B0 /* Release */,
+				4599FCD122CF35D3001D54C7 /* Debug */,
+				4599FCD222CF35D3001D54C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45F7C1E523FA723600B070B0 /* Build configuration list for PBXNativeTarget "TestLine" */ = {
+		4599FCD322CF35D3001D54C7 /* Build configuration list for PBXNativeTarget "ZZWave" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45F7C1E623FA723600B070B0 /* Debug */,
-				45F7C1E723FA723600B070B0 /* Release */,
+				4599FCD422CF35D3001D54C7 /* Debug */,
+				4599FCD522CF35D3001D54C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 45F7C1C923FA723400B070B0 /* Project object */;
+	rootObject = 4599FCB922CF35CD001D54C7 /* Project object */;
 }
