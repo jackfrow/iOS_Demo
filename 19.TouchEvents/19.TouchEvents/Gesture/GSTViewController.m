@@ -33,12 +33,12 @@
     green.backgroundColor = [UIColor greenColor];
     [self.view addSubview:green];
     
-//    JRTapGestureRecognizer* tap = [[JRTapGestureRecognizer alloc] initWithTarget:self action:@selector(tapTest)];
-//    [self.view addGestureRecognizer:tap];
+    JRTapGestureRecognizer* tap = [[JRTapGestureRecognizer alloc] initWithTarget:self action:@selector(tapTest)];
+    [self.view addGestureRecognizer:tap];
     
     
-    UIPanGestureRecognizer* ges = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(actionPan)];
-    [self.view addGestureRecognizer:ges];
+//    UIPanGestureRecognizer* ges = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(actionPan)];
+//    [self.view addGestureRecognizer:ges];
     
 }
 

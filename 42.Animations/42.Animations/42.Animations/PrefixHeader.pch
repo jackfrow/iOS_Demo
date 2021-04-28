@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  42.Animations
+//
+//  Created by jackfrow on 2021/4/22.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "Macro.h"
+
+#endif /* PrefixHeader_pch */

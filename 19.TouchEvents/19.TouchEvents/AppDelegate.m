@@ -24,7 +24,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+
+
     
     self.window = [[JRWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
       self.window.backgroundColor = [UIColor whiteColor];
