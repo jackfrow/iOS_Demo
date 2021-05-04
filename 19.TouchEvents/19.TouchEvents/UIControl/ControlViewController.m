@@ -26,8 +26,8 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-//    JRButton* btn = [[JRButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    CustomControl* btn = [[CustomControl alloc] initWithFrame:CGRectMake(100, 100, 100,100)];
+    JRButton* btn = [[JRButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+//    CustomControl* btn = [[CustomControl alloc] initWithFrame:CGRectMake(100, 100, 100,100)];
     btn.backgroundColor = [UIColor blueColor];
 //    [btn setTitle:@"test" forState:UIControlStateNormal];
     [self.view addSubview:btn];
@@ -36,7 +36,7 @@
     
     JRTapGestureRecognizer* tap = [[JRTapGestureRecognizer alloc] initWithTarget:self action:@selector(tapClick)];
     [self.view addGestureRecognizer:tap];
-    
+//
 //    [btn addGestureRecognizer:tap];
 }
 
