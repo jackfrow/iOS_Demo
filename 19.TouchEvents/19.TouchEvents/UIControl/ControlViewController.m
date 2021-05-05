@@ -35,9 +35,9 @@
     [self.view addSubview:btn];
     
     JRTapGestureRecognizer* tap = [[JRTapGestureRecognizer alloc] initWithTarget:self action:@selector(tapClick)];
-    [self.view addGestureRecognizer:tap];
+//    [self.view addGestureRecognizer:tap];
 //
-//    [btn addGestureRecognizer:tap];
+    [btn addGestureRecognizer:tap];
 }
 
 

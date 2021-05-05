@@ -32,9 +32,9 @@ class UserPresenter  {
         userView = view
     }
     
-    func detachView()  {
-        userView = nil
-    }
+//    func detachView()  {
+//        userView = nil
+//    }
     
     func getUsers()  {
         self.userView?.startLoading()

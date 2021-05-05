@@ -11,11 +11,11 @@ import XCTest
 
 class UserServiceMock: UserService {
     fileprivate let users: [User]
-    
+
     init(users: [User]) {
         self.users = users
     }
-    
+
     override func getUsers(_ callBack: @escaping ([User]) -> Void) {
         callBack(users)
     }
@@ -23,24 +23,24 @@ class UserServiceMock: UserService {
 
 
 class UserViewMock: NSObject,UserView {
-    
+
     var setUsersCalled = false
     var setEmptyUsersCalled = false
-    
+
     func setUsers(_ users: [UserViewData]) {
         setUsersCalled = true
     }
-    
+
     func setEmptyUsers() {
         setEmptyUsersCalled = true
     }
-    
+
     func startLoading() {
-    
+
     }
-    
+
     func finishLoading() {
-        
+
     }
 }
 
@@ -60,32 +60,32 @@ class UserPresenterTest: XCTestCase {
         let userMock = UserViewMock()
         let userPresenterUnderTest = UserPresenter(userService: emptyUsersServiceMock)
         userPresenterUnderTest.attachView(userMock)
-        
+
         //when
         userPresenterUnderTest.getUsers()
-        
-        
+
+
         //verify
         XCTAssertTrue(userMock.setEmptyUsersCalled)
-        
-        
+
+
     }
     
     
     func testShouldSetUsers() {
-        
+
         //given
         let userViewMock = UserViewMock()
         let userPresenterUnderTest = UserPresenter(userService: twoUsersServiceMock)
         userPresenterUnderTest.attachView(userViewMock)
-        
-        
+
+
         //when
         userPresenterUnderTest.getUsers()
-        
+
         //verify
         XCTAssertTrue(userViewMock.setUsersCalled)
-        
+
     }
     
     

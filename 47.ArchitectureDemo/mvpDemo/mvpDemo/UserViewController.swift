@@ -28,10 +28,13 @@ class UserViewController: UIViewController {
         userPresenter.attachView(self)
         userPresenter.getUsers()
     }
+    
 
 }
 
 extension UserViewController:UITableViewDataSource{
+
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return usersToDisplay.count
     }
