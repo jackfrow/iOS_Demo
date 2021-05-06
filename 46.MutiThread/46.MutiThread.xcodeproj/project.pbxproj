@@ -24,6 +24,7 @@
 		452F6E172639849400B128CC /* Pthread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F6E162639849400B128CC /* Pthread.swift */; };
 		452F6E1C26398DB300B128CC /* NSThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F6E1B26398DB300B128CC /* NSThread.swift */; };
 		452F6E21263C0C6600B128CC /* JYOPeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F6E20263C0C6600B128CC /* JYOPeration.swift */; };
+		45382F0526440D7C002E1269 /* JRGcd.m in Sources */ = {isa = PBXBuildFile; fileRef = 45382F0426440D7C002E1269 /* JRGcd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		452F6E162639849400B128CC /* Pthread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pthread.swift; sourceTree = "<group>"; };
 		452F6E1B26398DB300B128CC /* NSThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSThread.swift; sourceTree = "<group>"; };
 		452F6E20263C0C6600B128CC /* JYOPeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYOPeration.swift; sourceTree = "<group>"; };
+		45382F0326440D7C002E1269 /* JRGcd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRGcd.h; sourceTree = "<group>"; };
+		45382F0426440D7C002E1269 /* JRGcd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRGcd.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 				452F6E162639849400B128CC /* Pthread.swift */,
 				452F6E1B26398DB300B128CC /* NSThread.swift */,
 				452F6E20263C0C6600B128CC /* JYOPeration.swift */,
+				45382F0326440D7C002E1269 /* JRGcd.h */,
+				45382F0426440D7C002E1269 /* JRGcd.m */,
 			);
 			path = 46.MutiThread;
 			sourceTree = "<group>";
@@ -314,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				452F6DEB26397CC000B128CC /* JRBaseModel.m in Sources */,
+				45382F0526440D7C002E1269 /* JRGcd.m in Sources */,
 				452F6DAA26397C7A00B128CC /* ViewController.swift in Sources */,
 				452F6E0326397F4900B128CC /* TestCell.swift in Sources */,
 				452F6DEC26397CC000B128CC /* JRListViewController.m in Sources */,

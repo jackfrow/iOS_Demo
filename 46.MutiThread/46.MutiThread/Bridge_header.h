@@ -10,6 +10,7 @@
 
 #import "JRListViewController.h"
 #import "JRBaseCell.h"
+#import "JRGcd.h"
 
 
 #endif /* Bridge_header_h */

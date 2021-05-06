@@ -24,18 +24,38 @@ class ViewController: JRListViewController {
     func loadData()  {
         
         
-        for item in [CPthreads,
+        for item in [CPthreadUse,
+                     CPthreads,
                      CPthreads2,
+                     CNSThreadUse,
                      CNSThread1,
                      CNSThread2,
                      CNSThread3,
+                     COPreationUse,
                      COPreation1,
                      COPreation2,
                      COPreation3,
                      COPreation4,
                      COPreation5,
                      COPreation6,
-                     COPreation7] {
+                     COPreation7,
+                     CGCDUse,
+                     CGCD1,
+                     CGCD2,
+                     CGCD3,
+                     CGCD4,
+                     CGCD5,
+                     CGCD6,
+                     CGCD7,
+                     CGCDOther,
+                     CGCDOther1,
+                     CGCDOther2,
+                     CGCDOther3,
+                     CGCDOther4,
+                     CGCDOther5,
+                     CGCDOther6,
+                     CGCDOther7,
+                     CGCDOther8] {
             let m1 = TestModel(title: item)
             models.add(m1)
         }
@@ -43,6 +63,8 @@ class ViewController: JRListViewController {
        
     
         tableView.reloadData()
+        
+    
         
     
     }
@@ -80,6 +102,36 @@ class ViewController: JRListViewController {
                 OPreationDemo().testDemo6()
             case COPreation7:
                 OPreationDemo().testDemo7()
+            case CGCD1:
+                JRGcd.syncConcurrent()
+            case CGCD2:
+                JRGcd.asyncConcurrent()
+            case CGCD3:
+                JRGcd.syncSerial()
+            case CGCD4:
+                JRGcd.asyncSerial()
+            case CGCD5:
+                JRGcd.syncMain()
+            case CGCD6:
+                JRGcd.asyncMain()
+            case CGCD7:
+                JRGcd.communication()
+            case CGCDOther1:
+                JRGcd.barrier()
+            case CGCDOther2:
+                JRGcd.after()
+            case CGCDOther3:
+                JRGcd.once()
+            case CGCDOther4:
+                JRGcd.apply()
+            case CGCDOther5:
+                JRGcd.groupNotify()
+            case CGCDOther6:
+                JRGcd.groupWait()
+            case CGCDOther7:
+                JRGcd.groupEnterAndLeave()
+            case CGCDOther8:
+                JRGcd.semaphoreSync()
             default:
                 NSLog("invalid info ")
             }

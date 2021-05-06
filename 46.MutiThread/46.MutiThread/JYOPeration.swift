@@ -186,7 +186,7 @@ class OPreationDemo {
 
 
 class JROPreation : Operation {
-    
+
     
     override func main() {
         NSLog(" 继承自Operation的demo")
