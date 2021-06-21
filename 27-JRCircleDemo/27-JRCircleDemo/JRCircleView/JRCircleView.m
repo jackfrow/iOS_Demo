@@ -37,6 +37,7 @@
 
 -(void)configure{
     
+    
     self.bounds = CGRectMake(0, 0, 200, 200);
     self.backgroundColor = [UIColor colorWithHexString:@"1F1928"];
     self.clipsToBounds = true;
@@ -138,6 +139,7 @@
     UIBezierPath* path = [UIBezierPath bezierPathWithArcCenter:CGPointMake(100, 100) radius:radius startAngle:M_PI_2 endAngle:M_PI_2 * 3 clockwise:clockWise];
     layer.path = path.CGPath;
     layer.strokeEnd = 0.0f;
+    
     //设置渐变颜色
     CAGradientLayer* gradLayer = [[CAGradientLayer alloc] init];
     gradLayer.frame = view.bounds;

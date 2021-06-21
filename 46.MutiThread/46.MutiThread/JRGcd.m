@@ -410,6 +410,9 @@
     
     dispatch_group_t group = dispatch_group_create();
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    
+    
+    
     dispatch_group_enter(group);
     dispatch_async(queue, ^{
         // 追加任务 1
@@ -428,6 +431,7 @@
         dispatch_group_leave(group);
     });
     
+    
     dispatch_group_notify(group, dispatch_get_main_queue(), ^{
         // 等前面的异步操作都执行完毕后，回到主线程.
         [NSThread sleepForTimeInterval:2];              // 模拟耗时操作
@@ -435,6 +439,9 @@
     
         NSLog(@"group---end");
     });
+    
+
+   
 }
 
 

@@ -21,7 +21,8 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor colorWithHexString:@"110918"];
-
+//    self.view.backgroundColor = [UIColor redColor];
+    
     JRCircleView* circle = [[JRCircleView alloc] init];
     [self.view addSubview:circle];
     
