@@ -1,0 +1,6 @@
+framework module Pods_50_ObjectMapperDemo {
+  umbrella header "Pods-50.ObjectMapperDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
